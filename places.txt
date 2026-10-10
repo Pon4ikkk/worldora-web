@@ -1,0 +1,203 @@
+EUROPE
+Oia — Греція
+Meteora — Греція
+Acropolis of Athens — Греція
+Navagio Beach — Греція
+Santorini Caldera — Греція
+Hallstatt — Австрія
+Schönbrunn Palace — Австрія
+Lauterbrunnen Valley — Швейцарія
+Lake Lucerne — Швейцарія
+Matterhorn — Швейцарія
+Interlaken — Швейцарія
+Lake Bled — Словенія
+Ljubljana Castle — Словенія
+Plitvice Lakes — Хорватія
+Dubrovnik Old Town — Хорватія
+Rovinj Old Town — Хорватія
+Venice Grand Canal — Італія
+Cinque Terre — Італія
+Tre Cime di Lavaredo — Італія
+Lake Como — Італія
+Amalfi Coast — Італія
+Colosseum — Італія
+Florence Historic Centre — Італія
+Mont Saint-Michel — Франція
+Eiffel Tower — Франція
+Annecy Old Town — Франція
+Verdon Gorge — Франція
+Covadonga Lakes — Іспанія
+Sagrada Família — Іспанія
+Park Güell — Іспанія
+Plaza de España — Іспанія
+Benagil Cave — Португалія
+Alfama — Португалія
+Pena Palace — Португалія
+Cliffs of Moher — Ірландія
+Giant's Causeway — Велика Британія
+Edinburgh Castle — Велика Британія
+Isle of Skye — Велика Британія
+Tower Bridge — Велика Британія
+Geirangerfjord — Норвегія
+Lofoten Islands — Норвегія
+Trolltunga — Норвегія
+Preikestolen — Норвегія
+Stockholm Archipelago — Швеція
+Nyhavn — Данія
+Rovaniemi — Фінляндія
+Tromsø — Норвегія
+Reynisfjara Beach — Ісландія
+Seljalandsfoss — Ісландія
+Jökulsárlón — Ісландія
+Old Town Square — Чехія
+Charles Bridge — Чехія
+Bastei Bridge — Німеччина
+Neuschwanstein Castle — Німеччина
+Lake Königssee — Німеччина
+Lake Bohinj — Словенія
+Kotor Old Town — Чорногорія
+Bay of Kotor — Чорногорія
+Mostar Old Bridge — Боснія і Герцеговина
+Ohrid Old Town — Північна Македонія
+Bran Castle — Румунія
+Transfăgărășan — Румунія
+Budapest Parliament — Угорщина
+Zakopane — Польща
+Wieliczka Salt Mine — Польща
+Kyiv Pechersk Lavra — Україна
+Carpathian Mountains — Україна
+Hoverla — Україна
+Synevyr Lake — Україна
+Kamianets-Podilskyi Castle — Україна
+Lviv Old Town — Україна
+ASIA
+Shibuya Crossing — Японія
+Fushimi Inari Taisha — Японія
+Arashiyama Bamboo Forest — Японія
+Mount Fuji — Японія
+Tokyo Skytree — Японія
+Dotonbori — Японія
+Kinkaku-ji — Японія
+Hiroshima Peace Memorial Park — Японія
+Nara Park — Японія
+Shirakawa-go — Японія
+Mount Everest Base Camp — Непал
+Kathmandu Durbar Square — Непал
+Annapurna Circuit — Непал
+Tiger's Nest Monastery — Бутан
+Ha Long Bay — В'єтнам
+Hoi An Ancient Town — В'єтнам
+Golden Bridge — В'єтнам
+Phong Nha Caves — В'єтнам
+Angkor Wat — Камбоджа
+Bayon Temple — Камбоджа
+Ubud Rice Terraces — Індонезія
+Tanah Lot — Індонезія
+Nusa Penida — Індонезія
+Komodo National Park — Індонезія
+Borobudur Temple — Індонезія
+Gardens by the Bay — Сінгапур
+Marina Bay Sands — Сінгапур
+Petronas Towers — Малайзія
+Langkawi Sky Bridge — Малайзія
+Phi Phi Islands — Таїланд
+Railay Beach — Таїланд
+Grand Palace Bangkok — Таїланд
+Cappadocia — Туреччина
+Pamukkale — Туреччина
+Hagia Sophia — Туреччина
+Petra — Йорданія
+Wadi Rum — Йорданія
+Burj Khalifa — ОАЕ
+Sheikh Zayed Grand Mosque — ОАЕ
+Hegra — Саудівська Аравія
+Taj Mahal — Індія
+Varanasi Ghats — Індія
+Kerala Backwaters — Індія
+Pangong Lake — Індія
+Great Wall of China — Китай
+Zhangjiajie National Forest Park — Китай
+Forbidden City — Китай
+Li River — Китай
+Jiuzhaigou Valley — Китай
+Malé Atoll — Мальдіви
+Banaue Rice Terraces — Філіппіни
+El Nido — Філіппіни
+Raja Ampat — Індонезія
+Mount Bromo — Індонезія
+Gyeongbokgung Palace — Південна Корея
+Jeju Island — Південна Корея
+NORTH AMERICA
+Times Square — США
+Grand Canyon — США
+Yellowstone National Park — США
+Yosemite National Park — США
+Antelope Canyon — США
+Monument Valley — США
+Zion National Park — США
+Bryce Canyon — США
+Nā Pali Coast — США
+Haleakalā — США
+Golden Gate Bridge — США
+Las Vegas Strip — США
+Miami Beach — США
+French Quarter — США
+Space Needle — США
+Banff National Park — Канада
+Lake Louise — Канада
+Moraine Lake — Канада
+Jasper National Park — Канада
+Niagara Falls — Канада
+Stanley Park — Канада
+Quebec City Old Town — Канада
+Icefields Parkway — Канада
+Whistler — Канада
+Tulum — Мексика
+Chichén Itzá — Мексика
+Historic Centre of Mexico City — Мексика
+Copper Canyon — Мексика
+Holbox Island — Мексика
+Palenque — Мексика
+SOUTH AMERICA
+Machu Picchu — Перу
+Rainbow Mountain — Перу
+Lake Titicaca — Перу
+Sacred Valley — Перу
+Salar de Uyuni — Болівія
+Valle de la Luna — Болівія
+Torres del Paine — Чилі
+Atacama Desert — Чилі
+Easter Island — Чилі
+Marble Caves — Чилі
+Perito Moreno Glacier — Аргентина
+Iguazu Falls — Аргентина
+La Boca — Аргентина
+El Chaltén — Аргентина
+Christ the Redeemer — Бразилія
+Sugarloaf Mountain — Бразилія
+Amazon Rainforest — Бразилія
+Lençóis Maranhenses — Бразилія
+Fernando de Noronha — Бразилія
+Cartagena Old Town — Колумбія
+Cocora Valley — Колумбія
+Guatapé — Колумбія
+Galápagos Islands — Еквадор
+Quito Historic Centre — Еквадор
+Angel Falls — Венесуела
+AFRICA
+Pyramids of Giza — Єгипет
+Valley of the Kings — Єгипет
+White Desert — Єгипет
+Marrakech Medina — Марокко
+Chefchaouen — Марокко
+Merzouga Desert — Марокко
+Aït Benhaddou — Марокко
+Table Mountain — ПАР
+Bo-Kaap — ПАР
+Kruger National Park — ПАР
+Blyde River Canyon — ПАР
+Victoria Falls — Замбія
+Serengeti National Park — Танзанія
+Ngorongoro Crater — Танзанія
+Mount Kilimanjaro — Танзанія
+Stone Town — Танзанія

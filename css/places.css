@@ -1,0 +1,627 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #050806;
+    color: #f5f8f6;
+    font-family: "Manrope", Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: rgba(5, 8, 6, 0.78);
+    border-bottom: 1px solid rgba(99, 230, 165, 0.16);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.38);
+    opacity: 0.92;
+    animation: headerAppear 0.9s ease-out both, headerBreath 6s ease-in-out 1s infinite;
+    transform-origin: top center;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    left: -18%;
+    top: 0;
+    width: 28%;
+    height: 1px;
+    background: #63e6a5;
+    box-shadow: 0 0 18px rgba(99, 230, 165, 0.75);
+    animation: headerBeam 8s linear infinite;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(99, 230, 165, 0.65), transparent);
+    transform-origin: center;
+    animation: borderGlow 4s ease-in-out infinite;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1220px;
+    min-height: 78px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    transition: color 0.3s ease, transform 0.45s ease, text-shadow 0.3s ease;
+    animation: logoFloat 5s ease-in-out infinite;
+    transform-style: preserve-3d;
+}
+
+.logo:hover {
+    color: #63e6a5;
+    transform: scale(1.05) rotateX(5deg) rotateY(-8deg);
+    text-shadow: 0 0 18px rgba(99, 230, 165, 0.7);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    perspective: 900px;
+}
+
+.nav-links li {
+    animation: navItemAppear 0.65s ease-out both;
+}
+
+.nav-links li:nth-child(1) {
+    animation-delay: 0.16s;
+}
+
+.nav-links li:nth-child(2) {
+    animation-delay: 0.24s;
+}
+
+.nav-links li:nth-child(3) {
+    animation-delay: 0.32s;
+}
+
+.nav-links li:nth-child(4) {
+    animation-delay: 0.40s;
+}
+
+.nav-links a {
+    position: relative;
+    display: block;
+    padding: 10px 17px;
+    border-radius: 10px;
+    color: #a9b5ae;
+    font-size: 14px;
+    font-weight: 700;
+    transition: color 0.25s ease, background 0.25s ease, transform 0.35s ease, box-shadow 0.35s ease;
+    transform-style: preserve-3d;
+}
+
+.nav-links a::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    border-radius: 9px;
+    border: 1px solid rgba(99, 230, 165, 0.16);
+    opacity: 0;
+    transform: scale(0.84) rotateX(14deg);
+    transition: opacity 0.3s ease, transform 0.35s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    width: 0;
+    height: 2px;
+    background: #63e6a5;
+    transform: translateX(-50%);
+    transition: width 0.25s ease;
+    box-shadow: 0 0 10px rgba(99, 230, 165, 0.75);
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #ffffff;
+    background: rgba(99, 230, 165, 0.1);
+    transform: translateY(-2px) rotateX(3deg) rotateY(-2deg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18), 0 0 20px rgba(99, 230, 165, 0.06);
+}
+
+.nav-links a:hover::before,
+.nav-links a.active::before {
+    opacity: 1;
+    transform: scale(1) rotateX(0);
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 55%;
+}
+
+.destinations-hero {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1150px;
+    margin: 58px auto 62px;
+    padding: 78px 25px;
+    text-align: center;
+    border: 1px solid rgba(99, 230, 165, 0.23);
+    border-radius: 30px;
+    background: linear-gradient(135deg, rgba(18, 76, 52, 0.34), rgba(7, 13, 10, 0.98));
+    box-shadow: 0 28px 70px rgba(0, 0, 0, 0.44), 0 0 45px rgba(99, 230, 165, 0.07);
+    animation: placesReveal 0.8s ease both;
+}
+
+.destinations-hero::after {
+    content: "";
+    position: absolute;
+    left: -30%;
+    top: -70%;
+    width: 30%;
+    height: 230%;
+    background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.14), rgba(99, 230, 165, 0.12), transparent);
+    transform: skewX(-18deg);
+    animation: placesSweep 7s ease-in-out infinite;
+}
+
+.destinations-hero p,
+.continent-heading span {
+    color: #63e6a5;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.destinations-hero h1 {
+    margin-top: 10px;
+    font-size: 64px;
+    line-height: 1.06;
+    letter-spacing: -2px;
+}
+
+.destinations-hero span {
+    display: block;
+    margin-top: 12px;
+    color: #a6b2aa;
+}
+
+.destinations-shell {
+    width: 90%;
+    max-width: 1220px;
+    margin: 0 auto 110px;
+}
+
+.continent-section {
+    margin-bottom: 88px;
+}
+
+.continent-heading {
+    display: flex;
+    align-items: end;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.continent-heading h2 {
+    font-size: 38px;
+    line-height: 1;
+}
+
+.continent-heading p {
+    margin-left: auto;
+    color: #708078;
+    font-size: 14px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.destination-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(99, 230, 165, 0.15);
+    border-radius: 24px;
+    background: linear-gradient(145deg, rgba(18, 76, 52, 0.25), rgba(7, 12, 9, 0.99));
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.33);
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+    animation: cardAppear 0.7s ease both;
+}
+
+.destination-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(125deg, transparent 35%, rgba(99, 230, 165, 0.08), transparent 65%);
+    transform: translateX(-110%);
+    transition: transform 0.65s ease;
+    pointer-events: none;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(99, 230, 165, 0.55);
+    box-shadow: 0 28px 62px rgba(0, 0, 0, 0.48), 0 0 28px rgba(99, 230, 165, 0.1);
+}
+
+.destination-card:hover::before {
+    transform: translateX(110%);
+}
+
+.destination-image {
+    position: relative;
+    height: 225px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #143b2b, #07100b);
+}
+
+.destination-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(4, 8, 6, 0.75), transparent 55%);
+}
+
+.destination-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.65s ease, filter 0.5s ease;
+}
+
+.destination-card:hover .destination-image img {
+    transform: scale(1.09);
+    filter: brightness(1.06) saturate(1.13);
+}
+
+.image-label {
+    position: absolute;
+    left: 16px;
+    bottom: 14px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.destination-content {
+    padding: 24px;
+}
+
+.destination-country {
+    color: #63e6a5;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.destination-title {
+    margin-top: 5px;
+    font-size: 26px;
+    line-height: 1.15;
+}
+
+.destination-text {
+    min-height: 74px;
+    margin: 14px 0 22px;
+    color: #9eaaa3;
+    font-size: 14px;
+}
+
+.destination-button {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid rgba(99, 230, 165, 0.52);
+    border-radius: 10px;
+    background: linear-gradient(135deg, #176a4b, #0d432f);
+    font-size: 13px;
+    font-weight: 800;
+    transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.destination-button:hover {
+    transform: translateY(-3px);
+    background: #63e6a5;
+    color: #06120c;
+    box-shadow: 0 0 24px rgba(99, 230, 165, 0.28);
+}
+
+.footer {
+    padding: 42px 20px 25px;
+    border-top: 1px solid rgba(99, 230, 165, 0.16);
+    background: #0a0f0c;
+}
+
+.footer-inner {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo {
+    color: #63e6a5;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer-inner p {
+    margin-top: 7px;
+    color: #7f8c84;
+    font-size: 14px;
+}
+
+.footer-copy {
+    margin-top: 18px !important;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@keyframes placesReveal {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes placesSweep {
+    0% {
+        left: -35%;
+    }
+    55%, 100% {
+        left: 125%;
+    }
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes headerAppear {
+    from {
+        opacity: 0;
+        transform: translateY(-18px) rotateX(-4deg);
+    }
+    to {
+        opacity: 0.92;
+        transform: translateY(0) rotateX(0);
+    }
+}
+
+@keyframes headerBreath {
+    0%, 100% {
+        box-shadow: 0 10px 32px rgba(0, 0, 0, 0.38);
+    }
+    50% {
+        box-shadow: 0 12px 38px rgba(0, 0, 0, 0.42), 0 0 20px rgba(99, 230, 165, 0.04);
+    }
+}
+
+@keyframes headerBeam {
+    from {
+        left: -30%;
+    }
+    to {
+        left: 120%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .destination-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 760px) {
+    .nav-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 14px 0;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        padding: 8px 11px;
+        font-size: 13px;
+    }
+
+    .destinations-hero h1 {
+        font-size: 44px;
+    }
+
+    .continent-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .continent-heading p {
+        margin-left: 0;
+    }
+
+    .destination-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 27px;
+    }
+
+    .destinations-hero {
+        padding: 50px 18px;
+    }
+
+    .destination-image {
+        height: 205px;
+    }
+}
+
+.destinations-shell {
+    perspective: 1400px;
+}
+
+.destination-grid {
+    perspective: 1400px;
+}
+
+.destination-card {
+    transform-style: preserve-3d;
+    transform-origin: center bottom;
+}
+
+.destination-card:hover {
+    transform: translateY(-13px) rotateX(2.5deg) rotateY(-2deg) translateZ(7px) scale(1.012);
+}
+
+.destination-card:nth-child(3n):hover {
+    transform: translateY(-13px) rotateX(2.5deg) rotateY(2deg) translateZ(7px) scale(1.012);
+}
+
+.destination-image,
+.destination-content {
+    transform: translateZ(4px);
+}
+
+.destination-image img {
+    transform-origin: center center;
+}
+
+.destination-card:hover .destination-image img {
+    transform: scale(1.11) rotateZ(0.4deg);
+    filter: brightness(1.08) saturate(1.18) contrast(1.05);
+}
+
+.destination-content {
+    background: linear-gradient(180deg, rgba(9, 22, 15, 0.08), rgba(3, 8, 5, 0.28));
+}
+
+.destination-card::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: -54px;
+    bottom: -54px;
+    border-radius: 50%;
+    background: rgba(99, 230, 165, 0.08);
+    filter: blur(18px);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.destination-card:hover::after {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.destinations-hero {
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.destinations-hero:hover {
+    transform: rotateX(1.5deg) translateY(-4px);
+    box-shadow: 0 35px 88px rgba(0, 0, 0, 0.52), 0 0 48px rgba(99, 230, 165, 0.11);
+}
+
+@media (max-width: 760px) {
+    .destination-card:hover,
+    .destination-card:nth-child(3n):hover,
+    .destinations-hero:hover {
+        transform: translateY(-6px) scale(1.005);
+    }
+}
+
+
+.destination-grid {
+    perspective: 1400px;
+}
+
+.destination-card {
+    transform-style: preserve-3d;
+}
+
+.destination-card:hover {
+    transform: translateY(-12px) rotateX(2deg) rotateY(-1.5deg) translateZ(8px);
+}
+
+.destination-image img {
+    transform-origin: center;
+}
+
+.destination-card::after {
+    content: "";
+    position: absolute;
+    inset: auto -20% -70% auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: rgba(99,230,165,0.09);
+    filter: blur(30px);
+    animation: destinationOrb 6s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+.destination-card:nth-child(3n)::after { animation-delay: 1.2s; }
+.destination-card:nth-child(4n)::after { animation-delay: 2.2s; }
+
+@keyframes destinationOrb {
+    from { transform: translate(0,0) scale(0.85); }
+    to { transform: translate(-70px,-30px) scale(1.2); }
+}
