@@ -4532,3 +4532,107 @@
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Small-screen corrections for all 197 location pages. */
+@media (max-width: 650px) {
+    .location-page .location-hero {
+        height: clamp(390px, 62svh, 540px);
+        min-height: 390px;
+    }
+
+    .location-page .location-title,
+    .location-page .location-subtitle,
+    .location-page .location-main,
+    .location-page .facts-section {
+        width: calc(100% - 28px);
+        min-width: 0;
+    }
+
+    .location-page .location-title {
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .location-page .location-title > div {
+        min-width: 0;
+        flex: 1 1 auto;
+    }
+
+    .location-page .location-title h1 {
+        font-size: clamp(32px, 9.5vw, 48px);
+        line-height: 1.06;
+        letter-spacing: -1.2px;
+        overflow-wrap: anywhere;
+    }
+
+    .location-page .location-country {
+        overflow-wrap: anywhere;
+    }
+
+    .location-page .location-subtitle {
+        font-size: 15px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    .location-page .location-grid,
+    .location-page .facts-grid {
+        min-width: 0;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .location-page .location-description,
+    .location-page .location-info-card,
+    .location-page .fact-card {
+        min-width: 0;
+    }
+
+    .location-page .location-info-card,
+    .location-page .fact-card {
+        padding: 21px;
+    }
+
+    .location-page .location-second-image {
+        width: calc(100% - 28px);
+        height: clamp(220px, 68vw, 320px);
+        min-width: 0;
+    }
+
+    .location-page .second-image-caption {
+        max-width: calc(100% - 24px);
+        overflow-wrap: anywhere;
+    }
+
+    .location-page .location-cta {
+        width: calc(100% - 28px);
+        max-width: none;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
+    }
+
+    .location-page .location-cta .btn {
+        max-width: 100%;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 360px) {
+    .location-page .location-flag {
+        font-size: 30px;
+    }
+
+    .location-page .location-title h1 {
+        font-size: 31px;
+        letter-spacing: -0.8px;
+    }
+
+    .location-page .location-description {
+        padding-left: 13px;
+    }
+
+    .location-page .location-info-card,
+    .location-page .fact-card {
+        padding: 18px;
+    }
+}
+

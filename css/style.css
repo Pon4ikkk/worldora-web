@@ -697,3 +697,122 @@ body::before {
         font-size:12px;
     }
 }
+
+/* Responsive finishing rules — scoped to small screens; desktop layout remains unchanged. */
+@media (max-width: 650px) {
+    .nav-container {
+        width: calc(100% - 24px);
+        min-height: 0;
+        gap: 6px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 2px;
+    }
+
+    .nav-links li {
+        min-width: 0;
+    }
+
+    .nav-links a {
+        padding: 8px clamp(5px, 2vw, 9px);
+        font-size: clamp(10px, 3.1vw, 12px);
+        white-space: nowrap;
+    }
+
+    .hero {
+        min-height: min(620px, calc(100svh - 70px));
+        height: auto;
+        padding: 28px 0;
+    }
+
+    .hero-content {
+        width: calc(100% - 24px);
+        padding: clamp(30px, 8vw, 42px) 16px;
+        border-radius: 22px;
+    }
+
+    .hero-title {
+        font-size: clamp(43px, 13.5vw, 54px);
+        letter-spacing: -2px;
+        overflow-wrap: anywhere;
+    }
+
+    .hero-subtitle {
+        font-size: clamp(18px, 5.5vw, 23px);
+    }
+
+    .hero-note {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .hero-kicker,
+    .section-heading span,
+    .section-kicker,
+    .cta-container > p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .section-shell {
+        width: calc(100% - 28px);
+    }
+
+    .section-heading h2,
+    .cta-container h2 {
+        font-size: clamp(27px, 7.5vw, 35px);
+        line-height: 1.12;
+        overflow-wrap: anywhere;
+    }
+
+    .about {
+        padding: 64px 0 30px;
+    }
+
+    .about-panel {
+        gap: 18px;
+        padding: 22px;
+        border-radius: 20px;
+    }
+
+    .about-marker {
+        min-width: 72px;
+        width: 72px;
+        height: 72px;
+        font-size: 23px;
+    }
+
+    .about-panel p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .cta-section {
+        padding: 36px 0 70px;
+    }
+
+    .cta-container {
+        padding: 40px 18px;
+        border-radius: 22px;
+    }
+
+    .footer-inner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-content {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+    .about-panel {
+        padding: 18px;
+    }
+}
+

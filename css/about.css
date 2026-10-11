@@ -997,3 +997,110 @@ main {
         transition: none !important;
     }
 }
+
+/* Responsive finishing rules for the About page only. */
+@media (max-width: 650px) {
+    .nav-container {
+        width: calc(100% - 24px);
+        min-height: 0;
+        gap: 6px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 2px;
+    }
+
+    .nav-links li {
+        min-width: 0;
+    }
+
+    .nav-links a {
+        padding: 8px clamp(5px, 2vw, 9px);
+        font-size: clamp(10px, 3.1vw, 12px);
+        white-space: nowrap;
+    }
+
+    main {
+        width: calc(100% - 24px);
+    }
+
+    .about {
+        padding: 52px 0 64px;
+        gap: 16px;
+    }
+
+    .about-me,
+    .about-site,
+    .about-idea {
+        min-width: 0;
+        width: 100%;
+        padding: 26px 21px;
+        border-radius: 20px;
+    }
+
+    .about-me-title,
+    .about-site-title,
+    .about-idea-title {
+        font-size: clamp(25px, 7vw, 29px);
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    .about-me p,
+    .about-site p,
+    .about-idea p {
+        font-size: 14px;
+        line-height: 1.75;
+        overflow-wrap: anywhere;
+    }
+
+    .about-site li {
+        overflow-wrap: anywhere;
+    }
+
+    .footer-inner {
+        width: 100%;
+    }
+}
+
+
+/* The About page stacks its animated 3D cards on tablets; remove sideways entrance
+   transforms there so the stacked layout stays inside the viewport. */
+@media (max-width: 900px) {
+    body {
+        perspective: none;
+    }
+
+    .about-me,
+    .about-site,
+    .about-idea {
+        animation: none;
+        transform: none;
+    }
+
+    .about-me-title,
+    .about-site-title,
+    .about-idea-title {
+        animation: none;
+        transform: none;
+    }
+
+    .about-me:hover,
+    .about-site:hover,
+    .about-idea:hover {
+        transform: none;
+    }
+
+    .about-site li:hover {
+        transform: none;
+    }
+
+    .footer,
+    .footer-logo,
+    .footer-inner p {
+        animation: none;
+    }
+}
