@@ -4636,3 +4636,31 @@
     }
 }
 
+
+
+/* Keep location photography at a stable size on phones. No looped zoom/float
+   animations should make the images appear to shrink while the page scrolls. */
+@media (max-width: 650px) {
+    .location-page .location-hero img {
+        transform: scale(1.035) !important;
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .location-page .location-hero::after,
+    .location-page .location-second-image,
+    .location-page .location-second-image::after,
+    .location-page .location-second-image img {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .location-page .location-second-image {
+        transform: none !important;
+    }
+
+    .location-page .location-second-image img,
+    .location-page .location-second-image:hover img {
+        transform: none !important;
+    }
+}

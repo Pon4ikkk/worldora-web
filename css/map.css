@@ -696,3 +696,124 @@
         inset: 2px;
     }
 }
+
+
+/* Mobile stability: avoid creating hundreds of 3D/composited marker layers. */
+@media (max-width: 900px) {
+    .atlas-map {
+        perspective: none;
+        isolation: auto;
+        background: #06110c;
+    }
+
+    .atlas-world {
+        filter: none;
+        opacity: 0.22;
+    }
+
+    .atlas-grid {
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+
+    .atlas-map-wrap {
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .atlas-point,
+    .atlas-point .atlas-point-card,
+    .atlas-point-front,
+    .atlas-point-back {
+        perspective: none;
+        transform-style: flat;
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
+/* Photo assets are requested only for the marker currently being previewed. */
+.atlas-point-front {
+    background-color: #0b2016;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.atlas-point:hover .atlas-point-front,
+.atlas-point:focus-visible .atlas-point-front {
+    background-image: var(--point-image, none) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+@media (max-width: 650px) {
+    .atlas-map-wrap {
+        box-shadow: none;
+    }
+
+    .atlas-map {
+        min-height: clamp(400px, 108vw, 455px);
+        touch-action: pan-y pinch-zoom;
+    }
+
+    .atlas-point {
+        width: 15px;
+        height: 15px;
+        margin: -7.5px 0 0 -7.5px;
+    }
+
+    .atlas-point::before {
+        inset: 0;
+        box-shadow: 0 0 0 2px rgba(99, 230, 165, 0.16), 0 0 5px rgba(99, 230, 165, 0.24);
+    }
+
+    .atlas-point .atlas-point-card {
+        inset: 2px;
+    }
+
+    .atlas-point-front {
+        border: 1px solid rgba(255, 255, 255, 0.75);
+    }
+
+    .atlas-point:hover .atlas-point-front,
+    .atlas-point:focus-visible .atlas-point-front {
+        width: min(150px, calc(100vw - 34px));
+        height: clamp(88px, 28vw, 112px);
+        border-radius: 9px;
+        box-shadow: 0 7px 18px rgba(0, 0, 0, 0.4);
+    }
+
+    .atlas-point:hover .atlas-point-back,
+    .atlas-point:focus-visible .atlas-point-back {
+        width: min(150px, calc(100vw - 34px));
+        padding: 7px 8px;
+    }
+}
+
+
+/* Final photo-preview rules: the complete WebP image stays inside the frame. */
+.atlas-point:hover .atlas-point-front,
+.atlas-point:focus-visible .atlas-point-front {
+    background-image: var(--point-image, none) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+    background-color: #020705 !important;
+}
+
+@media (max-width: 650px) {
+    .atlas-point::before {
+        /* Keep each of the 197 mobile markers cheap to paint: no blurred glow. */
+        box-shadow: 0 0 0 1px rgba(99, 230, 165, 0.22) !important;
+        filter: none !important;
+    }
+
+    .atlas-point:hover .atlas-point-front,
+    .atlas-point:focus-visible .atlas-point-front {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+    }
+}
