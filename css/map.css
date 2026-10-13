@@ -430,9 +430,7 @@
     }
 }
 
-/* Responsive atlas positioning: source coordinates remain untouched on desktop.
-   On tablets/phones offsets scale with the map width so points stay attached to
-   the same places on the proportional world image. */
+
 @media (max-width: 900px) {
     .atlas-map {
         container-type: inline-size;
@@ -698,7 +696,6 @@
 }
 
 
-/* Mobile stability: avoid creating hundreds of 3D/composited marker layers. */
 @media (max-width: 900px) {
     .atlas-map {
         perspective: none;

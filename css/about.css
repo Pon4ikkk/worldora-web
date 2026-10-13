@@ -1067,8 +1067,6 @@ main {
 }
 
 
-/* The About page stacks its animated 3D cards on tablets; remove sideways entrance
-   transforms there so the stacked layout stays inside the viewport. */
 @media (max-width: 900px) {
     body {
         perspective: none;
