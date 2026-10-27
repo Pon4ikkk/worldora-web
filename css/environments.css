@@ -1,0 +1,1032 @@
+.environment {
+    --environment-light: var(--destination-accent-soft, #d8e8da);
+    --environment-glow: var(--destination-glow, #8fc9c530);
+    --drop: clamp(480px, 85vh, 900px);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    overflow: hidden;
+    contain: layout style paint;
+    pointer-events: none;
+    user-select: none;
+    opacity: .85;
+}
+
+.environment *,
+.environment::before,
+.environment::after {
+    pointer-events: none;
+}
+
+.environment::before,
+.environment::after {
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: 62%;
+    width: min(260px, 50%);
+    height: 240px;
+    background: radial-gradient(ellipse, var(--environment-glow), transparent 68%);
+    animation: environment-light 13s ease-in-out infinite alternate;
+}
+
+.environment::after {
+    top: 45%;
+    left: 2%;
+    width: min(220px, 45%);
+    height: 180px;
+    animation-delay: -7s;
+    animation-duration: 17s;
+}
+
+.environment-particle {
+    --x: 8%;
+    --y: 16%;
+    --size: 11px;
+    --duration: 13s;
+    --delay: -3s;
+    --sway: 65px;
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    animation-duration: var(--duration);
+    animation-delay: var(--delay);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.environment-particle:nth-child(2) {
+    --x: 23%;
+    --y: 38%;
+    --size: 8px;
+    --duration: 17s;
+    --delay: -12s;
+    --sway: -40px;
+}
+
+.environment-particle:nth-child(3) {
+    --x: 41%;
+    --y: 11%;
+    --size: 15px;
+    --duration: 15s;
+    --delay: -7s;
+    --sway: 90px;
+}
+
+.environment-particle:nth-child(4) {
+    --x: 66%;
+    --y: 58%;
+    --size: 10px;
+    --duration: 21s;
+    --delay: -17s;
+    --sway: -65px;
+}
+
+.environment-particle:nth-child(5) {
+    --x: 87%;
+    --y: 23%;
+    --size: 7px;
+    --duration: 11s;
+    --delay: -4s;
+    --sway: -85px;
+}
+
+.environment-particle:nth-child(6) {
+    --x: 15%;
+    --y: 69%;
+    --size: 12px;
+    --duration: 18s;
+    --delay: -14s;
+    --sway: 75px;
+}
+
+.environment-particle:nth-child(7) {
+    --x: 54%;
+    --y: 37%;
+    --size: 9px;
+    --duration: 14s;
+    --delay: -8s;
+    --sway: -55px;
+}
+
+.environment-particle:nth-child(8) {
+    --x: 76%;
+    --y: 76%;
+    --size: 14px;
+    --duration: 23s;
+    --delay: -19s;
+    --sway: 45px;
+}
+
+.environment-particle:nth-child(9) {
+    --x: 35%;
+    --y: 83%;
+    --size: 6px;
+    --duration: 16s;
+    --delay: -5s;
+    --sway: -70px;
+}
+
+.environment-particle:nth-child(10) {
+    --x: 95%;
+    --y: 46%;
+    --size: 10px;
+    --duration: 19s;
+    --delay: -11s;
+    --sway: -95px;
+}
+
+.environment-sakura {
+    --environment-glow: #eaa5b52b;
+    opacity: .95;
+}
+
+.environment-sakura .environment-particle {
+    top: -25px;
+    height: calc(var(--size) * 1.3);
+    border-radius: 80% 15% 75% 45%;
+    clip-path: polygon(45% 18%, 60% 0, 83% 10%, 100% 39%, 87% 71%, 35% 100%, 7% 82%, 0 47%, 16% 17%, 33% 5%);
+    background: linear-gradient(145deg, #ffe1ea, #e5a1b5 65%, #c77997);
+    box-shadow: inset 1px 1px 2px #fff6;
+    animation-name: environment-petal;
+}
+
+.environment-sakura .environment-particle::after {
+    content: "";
+    position: absolute;
+    left: 44%;
+    top: 30%;
+    width: 1px;
+    height: 65%;
+    background: #b864853b;
+    transform: rotate(20deg);
+}
+
+.environment-signature .environment-sakura .environment-particle {
+    width: calc(var(--size) * 1.25);
+    height: calc(var(--size) * 1.65);
+}
+
+.environment-calm .environment {
+    opacity: .5;
+}
+
+.environment-ocean-shimmer {
+    opacity: .68;
+}
+
+.environment-ocean-shimmer .environment-particle {
+    top: calc(36% + var(--y) * .55);
+    width: calc(var(--size) * 5);
+    height: 2px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, transparent, #b9fff3, transparent);
+    animation-name: environment-shimmer;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-ocean-shimmer::after {
+    top: 44%;
+    width: min(300px, 60%);
+    height: 120px;
+    border-top: 1px solid #c0fff133;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at 50% 0, var(--environment-glow), transparent 65%);
+    animation-name: environment-wave;
+}
+
+.environment-snowfall .environment-particle {
+    top: -20px;
+    width: calc(var(--size) * .3);
+    height: calc(var(--size) * .3);
+    background: #f1fcff;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #e4f6ff55;
+    animation-name: environment-snow;
+}
+
+.environment-snowfall .environment-particle:nth-child(3n) {
+    border-radius: 0;
+    clip-path: polygon(50% 0, 58% 30%, 80% 12%, 86% 20%, 66% 43%, 100% 45%, 100% 55%, 66% 57%, 86% 80%, 80% 88%, 58% 70%, 50% 100%, 42% 70%, 20% 88%, 14% 80%, 34% 57%, 0 55%, 0 45%, 34% 43%, 14% 20%, 20% 12%, 42% 30%);
+    width: calc(var(--size) * .7);
+    height: calc(var(--size) * .7);
+}
+
+.environment-northern-lights {
+    --environment-glow: #84eacb26;
+}
+
+.environment-northern-lights .environment-particle {
+    width: 3px;
+    height: 3px;
+    background: #ddfff3;
+    border-radius: 50%;
+    animation-name: environment-twinkle;
+    animation-duration: calc(var(--duration) * .35);
+}
+
+.environment-northern-lights .environment-particle:nth-child(-n+3) {
+    top: -8%;
+    width: clamp(110px, 18vw, 250px);
+    height: 68%;
+    background: linear-gradient(100deg, transparent 12%, #87dec80b 25%, #a4efb640 43%, #b3e8bf4d 49%, #72a8da20 59%, transparent 77%);
+    border-radius: 48% 65% 35% 50%;
+    mask-image: linear-gradient(transparent, #000 20% 65%, transparent);
+    animation-name: environment-aurora;
+    animation-duration: var(--duration);
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.environment-desert-sand .environment-particle {
+    left: -40px;
+    width: calc(var(--size) * 1.8);
+    height: 1px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, transparent, #ebcb8b, transparent);
+    animation-name: environment-sand;
+    animation-duration: calc(var(--duration) * .65);
+}
+
+.environment-desert-sand::after {
+    top: 65%;
+    left: 35%;
+    width: min(320px, 60%);
+    height: 95px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, #d3a76c30, transparent 68%);
+    animation-name: environment-haze;
+}
+
+.environment-forest-fireflies .environment-particle {
+    width: calc(var(--size) * .33);
+    height: calc(var(--size) * .33);
+    border-radius: 50%;
+    background: #ecf2ab;
+    box-shadow: 0 0 7px #d3ed8e99;
+    animation-name: environment-firefly;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-forest-fireflies .environment-particle:nth-child(even) {
+    background: #d4eeb2;
+    box-shadow: 0 0 5px #c5efb777;
+}
+
+.environment-waterfall-mist .environment-particle {
+    top: -25px;
+    width: 2px;
+    height: calc(var(--size) * 1.8);
+    border-radius: 50%;
+    background: linear-gradient(180deg, transparent, #d8f2f3b3, transparent);
+    animation-name: environment-droplet;
+    animation-duration: calc(var(--duration) * .35);
+}
+
+.environment-waterfall-mist::before,
+.environment-waterfall-mist::after {
+    top: 24%;
+    left: 6%;
+    width: min(340px, 70%);
+    height: 140px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, #ddf5ef30, transparent 68%);
+    animation-name: environment-haze;
+    animation-duration: 12s;
+}
+
+.environment-waterfall-mist::after {
+    top: 59%;
+    left: 55%;
+}
+
+.environment-mountain-clouds .environment-particle {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: var(--environment-light);
+    animation-name: environment-twinkle;
+}
+
+.environment-mountain-clouds .environment-particle:nth-child(-n+4) {
+    width: clamp(120px, 22vw, 300px);
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at 30% 55%, #f2f7eb3b, transparent 53%), radial-gradient(ellipse at 65% 45%, #e4ecea2b, transparent 60%);
+    animation-name: environment-cloud;
+    animation-duration: calc(var(--duration) * 1.5);
+}
+
+.environment-volcanic-embers .environment-particle {
+    top: auto;
+    bottom: -20px;
+    width: calc(var(--size) * .35);
+    height: calc(var(--size) * .6);
+    border-radius: 70% 20% 60% 40%;
+    background: linear-gradient(0deg, #f2a565, #ffddaa);
+    box-shadow: 0 0 5px #f7974866;
+    animation-name: environment-ember;
+    animation-duration: calc(var(--duration) * .65);
+}
+
+.environment-volcanic-embers::after {
+    top: auto;
+    bottom: 3%;
+    left: 50%;
+    background: radial-gradient(ellipse, #d6743829, transparent 70%);
+}
+
+.environment-sunset-dust .environment-particle {
+    width: calc(var(--size) * .4);
+    height: calc(var(--size) * .4);
+    border-radius: 50%;
+    background: #ffe3ab;
+    box-shadow: 0 0 4px #efc37d55;
+    animation-name: environment-sunset;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-sunset-dust .environment-particle:nth-last-child(-n+2) {
+    width: 45px;
+    height: 45px;
+    box-shadow: none;
+    background: radial-gradient(circle, #eec98c24, transparent 65%);
+}
+
+.environment-tropical-jungle {
+    --environment-glow: #9bce8c2b;
+}
+
+.environment-tropical-jungle .environment-particle {
+    width: calc(var(--size) * .55);
+    height: calc(var(--size) * 1.1);
+    border-radius: 80% 10% 80% 10%;
+    background: linear-gradient(130deg, #c6dd9070, #80bb8860);
+    animation-name: environment-jungle;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-tropical-jungle::before {
+    top: 0;
+    height: 65%;
+    width: min(220px, 35%);
+    background: linear-gradient(120deg, transparent 20%, #c3e59d16, transparent 75%);
+    clip-path: polygon(40% 0, 60% 0, 100% 100%, 0 100%);
+}
+
+.environment-underwater-rays .environment-particle {
+    width: calc(var(--size) * 2.6);
+    height: calc(var(--size) * .8);
+    border: 1px solid #b8f4ed44;
+    border-radius: 50%;
+    background: transparent;
+    animation-name: environment-caustic;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-underwater-rays .environment-particle:nth-child(-n+3) {
+    top: 32%;
+    width: clamp(70px, 12vw, 180px);
+    height: 65%;
+    border: 0;
+    border-radius: 0;
+    clip-path: polygon(40% 0, 60% 0, 100% 100%, 0 100%);
+    background: linear-gradient(180deg, #dbfff530, #93dfd218, transparent);
+    animation-name: environment-ray;
+    animation-duration: var(--duration);
+    animation-direction: alternate;
+}
+
+.environment-city-lights .environment-particle {
+    width: calc(var(--size) * .45);
+    height: calc(var(--size) * 1.5);
+    border-radius: 2px;
+    background: linear-gradient(0deg, #e4bd7d66, #d6dcd5aa);
+    box-shadow: 0 0 7px #e7c99c33;
+    animation-name: environment-city;
+    animation-duration: calc(var(--duration) * .4);
+}
+
+.environment-city-lights .environment-particle:nth-child(3n) {
+    height: 3px;
+    width: calc(var(--size) * 3);
+    background: linear-gradient(90deg, transparent, #b8d9e7b3, transparent);
+}
+
+.environment-city-lights::after {
+    background: repeating-linear-gradient(90deg, transparent 0 39px, #d4e3df15 40px 41px, transparent 42px 81px);
+    height: 140px;
+    width: 180px;
+    mask-image: linear-gradient(transparent, #000, transparent);
+}
+
+.environment-ancient-dust .environment-particle {
+    width: calc(var(--size) * .45);
+    height: calc(var(--size) * .45);
+    background: linear-gradient(135deg, #ffeac2, #cdb382);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    animation-name: environment-ancient;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-ancient-dust::before {
+    width: 180px;
+    height: 240px;
+    border: 1px solid #e3c9931c;
+    border-radius: 50% 50% 0 0;
+    background: radial-gradient(ellipse at 50% 0, #dac79615, transparent 70%);
+}
+
+.environment-autumn-leaves .environment-particle {
+    top: -30px;
+    width: calc(var(--size) * 1.2);
+    height: calc(var(--size) * 1.4);
+    clip-path: polygon(50% 0, 60% 24%, 78% 12%, 74% 39%, 100% 38%, 82% 58%, 96% 76%, 62% 77%, 51% 100%, 40% 78%, 7% 74%, 22% 56%, 0 38%, 28% 40%, 22% 13%, 42% 27%);
+    background: linear-gradient(135deg, #dba34c, #a96035 65%, #d7b468);
+    animation-name: environment-leaf;
+}
+
+.environment-autumn-leaves .environment-particle:nth-child(even) {
+    background: linear-gradient(130deg, #dfa44e, #ca7e3e);
+}
+
+.environment-rain .environment-particle {
+    top: -50px;
+    width: 1px;
+    height: calc(var(--size) * 3.5);
+    background: linear-gradient(180deg, transparent, #d5e3ea88, transparent);
+    animation-name: environment-rainfall;
+    animation-duration: calc(var(--duration) * .13);
+}
+
+.environment-rain::before {
+    background: radial-gradient(ellipse, #a2bed31f, transparent 70%);
+}
+
+.environment-starry-night .environment-particle {
+    width: calc(var(--size) * .55);
+    height: calc(var(--size) * .55);
+    background: #eaf1dc;
+    clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%);
+    animation-name: environment-twinkle;
+    animation-duration: calc(var(--duration) * .3);
+    animation-timing-function: ease-in-out;
+}
+
+.environment-starry-night .environment-particle:nth-child(10) {
+    left: 65%;
+    top: 10%;
+    width: 95px;
+    height: 1px;
+    clip-path: none;
+    background: linear-gradient(90deg, transparent, #ecf5e8);
+    animation-name: environment-meteor;
+    animation-duration: 16s;
+}
+
+.environment-meadow-pollen .environment-particle {
+    width: calc(var(--size) * .45);
+    height: calc(var(--size) * .45);
+    background: radial-gradient(circle, #fff0bc 0 25%, transparent 55%);
+    border-radius: 50%;
+    animation-name: environment-pollen;
+    animation-timing-function: ease-in-out;
+}
+
+.environment-meadow-pollen .environment-particle:nth-child(3n) {
+    background: linear-gradient(90deg, transparent 43%, #f5eacb99 46% 54%, transparent 57%), linear-gradient(0deg, transparent 43%, #f5eacb99 46% 54%, transparent 57%);
+    width: var(--size);
+    height: var(--size);
+}
+
+@keyframes environment-light {
+    from {
+        opacity: .45;
+        transform: translate(-14px, 10px);
+    }
+
+    to {
+        opacity: .9;
+        transform: translate(22px, -18px);
+    }
+}
+
+@keyframes environment-petal {
+    0% {
+        opacity: 0;
+        transform: translate(0, -30px) rotate(0) rotateY(0);
+    }
+
+    12% {
+        opacity: .9;
+    }
+
+    48% {
+        transform: translate(calc(var(--sway) * -.35), calc(var(--drop) * .45)) rotate(135deg) rotateY(105deg);
+    }
+
+    85% {
+        opacity: .8;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(var(--sway), var(--drop)) rotate(320deg) rotateY(220deg);
+    }
+}
+
+@keyframes environment-shimmer {
+
+    0%,
+    100% {
+        opacity: .08;
+        transform: translateX(-25px) scaleX(.4);
+    }
+
+    45% {
+        opacity: .75;
+        transform: translateX(30px) scaleX(1.25);
+    }
+
+    75% {
+        opacity: .22;
+        transform: translateX(48px) scaleX(.65);
+    }
+}
+
+@keyframes environment-wave {
+    from {
+        opacity: .3;
+        transform: translate(-15px, 10px) scaleX(.9);
+    }
+
+    to {
+        opacity: .7;
+        transform: translate(24px, -18px) scaleX(1.1);
+    }
+}
+
+@keyframes environment-snow {
+    0% {
+        opacity: 0;
+        transform: translate(0, -25px);
+    }
+
+    10%,
+    86% {
+        opacity: .85;
+    }
+
+    50% {
+        transform: translate(calc(var(--sway) * -.3), calc(var(--drop) * .5));
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(var(--sway), var(--drop));
+    }
+}
+
+@keyframes environment-twinkle {
+
+    0%,
+    100% {
+        opacity: .12;
+        transform: scale(.65);
+    }
+
+    45% {
+        opacity: .85;
+        transform: scale(1.15);
+    }
+
+    70% {
+        opacity: .4;
+        transform: scale(.9);
+    }
+}
+
+@keyframes environment-aurora {
+    from {
+        opacity: .35;
+        transform: translate(-20px, -5px) skewX(-12deg) scaleX(.9);
+    }
+
+    to {
+        opacity: .8;
+        transform: translate(35px, 18px) skewX(11deg) scaleX(1.18);
+    }
+}
+
+@keyframes environment-sand {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px) rotate(-8deg);
+    }
+
+    15%,
+    75% {
+        opacity: .65;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(110vw, -60px) rotate(-8deg);
+    }
+}
+
+@keyframes environment-haze {
+    from {
+        opacity: .3;
+        transform: translate(-35px, 12px) scale(.9);
+    }
+
+    to {
+        opacity: .65;
+        transform: translate(35px, -16px) scale(1.08);
+    }
+}
+
+@keyframes environment-firefly {
+
+    0%,
+    100% {
+        opacity: .1;
+        transform: translate(0, 0) scale(.7);
+    }
+
+    24% {
+        opacity: .8;
+        transform: translate(-18px, -28px) scale(1.1);
+    }
+
+    55% {
+        opacity: .25;
+        transform: translate(var(--sway), -52px) scale(.8);
+    }
+
+    78% {
+        opacity: .9;
+        transform: translate(12px, -15px) scale(1);
+    }
+}
+
+@keyframes environment-droplet {
+    0% {
+        opacity: 0;
+        transform: translate(0, -20px);
+    }
+
+    15%,
+    70% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-12px, var(--drop));
+    }
+}
+
+@keyframes environment-cloud {
+    0% {
+        opacity: 0;
+        transform: translate(-180px, 10px);
+    }
+
+    20%,
+    75% {
+        opacity: .55;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(230px, -20px);
+    }
+}
+
+@keyframes environment-ember {
+    0% {
+        opacity: 0;
+        transform: translate(0, 20px) rotate(12deg);
+    }
+
+    15% {
+        opacity: .9;
+    }
+
+    65% {
+        opacity: .6;
+        transform: translate(var(--sway), -250px) rotate(-16deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(calc(var(--sway) * .4), calc(var(--drop) * -.8)) rotate(32deg);
+    }
+}
+
+@keyframes environment-sunset {
+
+    0%,
+    100% {
+        opacity: .15;
+        transform: translate(-12px, 30px) scale(.65);
+    }
+
+    50% {
+        opacity: .8;
+        transform: translate(34px, -42px) scale(1.15);
+    }
+}
+
+@keyframes environment-jungle {
+
+    0%,
+    100% {
+        opacity: .15;
+        transform: translate(-20px, 25px) rotate(-35deg);
+    }
+
+    50% {
+        opacity: .7;
+        transform: translate(var(--sway), -40px) rotate(60deg);
+    }
+}
+
+@keyframes environment-caustic {
+
+    0%,
+    100% {
+        opacity: .1;
+        transform: translate(-14px, 15px) scale(.7);
+    }
+
+    50% {
+        opacity: .65;
+        transform: translate(25px, -20px) scale(1.3);
+    }
+}
+
+@keyframes environment-ray {
+    from {
+        opacity: .25;
+        transform: translateX(-15px) rotate(-12deg);
+    }
+
+    to {
+        opacity: .75;
+        transform: translateX(24px) rotate(5deg);
+    }
+}
+
+@keyframes environment-city {
+
+    0%,
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+
+    32% {
+        opacity: .65;
+        transform: translateY(-3px);
+    }
+
+    47% {
+        opacity: .3;
+    }
+
+    70% {
+        opacity: .85;
+        transform: translateY(2px);
+    }
+}
+
+@keyframes environment-ancient {
+
+    0%,
+    100% {
+        opacity: .12;
+        transform: translate(-20px, -30px) rotate(0);
+    }
+
+    50% {
+        opacity: .7;
+        transform: translate(24px, 38px) rotate(80deg);
+    }
+}
+
+@keyframes environment-leaf {
+    0% {
+        opacity: 0;
+        transform: translate(0, -25px) rotate(-30deg);
+    }
+
+    12%,
+    83% {
+        opacity: .8;
+    }
+
+    35% {
+        transform: translate(var(--sway), calc(var(--drop) * .3)) rotate(100deg);
+    }
+
+    70% {
+        transform: translate(calc(var(--sway) * -.4), calc(var(--drop) * .65)) rotate(230deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(var(--sway), var(--drop)) rotate(380deg);
+    }
+}
+
+@keyframes environment-rainfall {
+    0% {
+        opacity: 0;
+        transform: translate(0, -50px) rotate(13deg);
+    }
+
+    15%,
+    80% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-120px, var(--drop)) rotate(13deg);
+    }
+}
+
+@keyframes environment-meteor {
+
+    0%,
+    78%,
+    100% {
+        opacity: 0;
+        transform: translate(0, 0) rotate(-25deg);
+    }
+
+    81% {
+        opacity: .7;
+    }
+
+    90% {
+        opacity: 0;
+        transform: translate(-280px, 130px) rotate(-25deg);
+    }
+}
+
+@keyframes environment-pollen {
+
+    0%,
+    100% {
+        opacity: .15;
+        transform: translate(-15px, 35px) rotate(0);
+    }
+
+    45% {
+        opacity: .85;
+        transform: translate(var(--sway), -45px) rotate(65deg);
+    }
+
+    75% {
+        opacity: .35;
+        transform: translate(15px, -10px) rotate(120deg);
+    }
+}
+
+.location-hero>.environment {
+    z-index: 1;
+}
+
+.location-page[class*="effect-"]::after {
+    position: fixed;
+    top: 32%;
+    width: min(260px, 35%);
+    height: 300px;
+    opacity: .18;
+    animation: environment-background-wind 22s ease-in-out infinite alternate;
+}
+
+@keyframes environment-background-wind {
+    from {
+        transform: translate(0, 12px);
+    }
+
+    to {
+        transform: translate(14px, -20px);
+    }
+}
+
+.location-hero>.hero-label {
+    z-index: 2;
+}
+
+.hero>.environment {
+    z-index: 1;
+    opacity: .75;
+}
+
+.hero:has(.orbit-pause:checked) .environment *,
+.hero:has(.orbit-pause:checked) .environment::before,
+.hero:has(.orbit-pause:checked) .environment::after {
+    animation-play-state: paused;
+}
+
+.destinations-hero> :not(.environment),
+.atlas-intro> :not(.environment) {
+    position: relative;
+    z-index: 2;
+}
+
+.atlas-intro {
+    position: relative;
+    isolation: isolate;
+}
+
+.atlas-intro>.environment {
+    z-index: 0;
+}
+
+.about-me {
+    isolation: isolate;
+}
+
+.about-me>.environment {
+    z-index: -1;
+    opacity: .55;
+}
+
+.destinations-hero>.environment {
+    opacity: .55;
+}
+
+body:not(.location-page)::before {
+    animation: worldora-ambient-light 15s ease-in-out infinite alternate;
+}
+
+@keyframes worldora-ambient-light {
+    from {
+        transform: translate(0, 0);
+        opacity: .6;
+    }
+
+    to {
+        transform: translate(-28px, 22px);
+        opacity: .95;
+    }
+}
+
+@media (max-width: 900px) {
+    .environment {
+        opacity: .72;
+    }
+
+    .environment-particle:nth-child(n+5) {
+        display: none;
+    }
+
+    .environment::after {
+        display: none;
+    }
+
+    .environment::before {
+        width: min(180px, 40%);
+        height: 200px;
+        animation-duration: 19s;
+    }
+
+    .environment-mountain-clouds .environment-particle:nth-child(-n+4) {
+        width: 150px;
+        height: 65px;
+    }
+
+    .environment-northern-lights .environment-particle:nth-child(-n+3) {
+        width: 110px;
+    }
+}
+
+@media (update: slow) {
+    .environment-particle:nth-child(n+4) {
+        display: none;
+    }
+
+    .environment::before,
+    .environment::after {
+        animation: none;
+    }
+
+    .location-page[class*="effect-"]::after {
+        animation: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .environment {
+        display: none;
+    }
+}

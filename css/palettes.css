@@ -1,0 +1,2166 @@
+.location-ait-benhaddou,
+.destination-ait-benhaddou {
+    --destination-accent: #d7b29d;
+    --destination-accent-soft: #e5d9d1;
+    --destination-glow: #b6704935;
+    --destination-background: #140d0a;
+    --destination-highlight: #e4e1c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a453a;
+}
+
+.location-blyde-river-canyon,
+.destination-blyde-river-canyon {
+    --destination-accent: #d8ba9c;
+    --destination-accent-soft: #e5dbd1;
+    --destination-glow: #b77f4835;
+    --destination-background: #140f0a;
+    --destination-highlight: #c3e4cb;
+    --destination-surface: #231d16;
+    --destination-border: #5a4a3a;
+}
+
+.location-bo-kaap,
+.destination-bo-kaap {
+    --destination-accent: #a1c3d4;
+    --destination-accent-soft: #d3dee4;
+    --destination-glow: #5090af35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4cd;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-chefchaouen,
+.destination-chefchaouen {
+    --destination-accent: #cdc2a7;
+    --destination-accent-soft: #e2ded5;
+    --destination-glow: #a38e5c35;
+    --destination-background: #14110a;
+    --destination-highlight: #d8e4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a513a;
+}
+
+.location-kruger-national-park,
+.destination-kruger-national-park {
+    --destination-accent: #cdbaa7;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a37f5c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dfe4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a4a3a;
+}
+
+.location-marrakech-medina,
+.destination-marrakech-medina {
+    --destination-accent: #cdb7a7;
+    --destination-accent-soft: #e2dad5;
+    --destination-glow: #a3795c35;
+    --destination-background: #140e0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a473a;
+}
+
+.location-merzouga-desert,
+.destination-merzouga-desert {
+    --destination-accent: #d9b79b;
+    --destination-accent-soft: #e6dad1;
+    --destination-glow: #b97a4635;
+    --destination-background: #140e0a;
+    --destination-highlight: #e0e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-mount-kilimanjaro,
+.destination-mount-kilimanjaro {
+    --destination-accent: #a7bdcd;
+    --destination-accent-soft: #d5dce2;
+    --destination-glow: #5c86a335;
+    --destination-background: #0a1014;
+    --destination-highlight: #c6c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-ngorongoro-crater,
+.destination-ngorongoro-crater {
+    --destination-accent: #98badd;
+    --destination-accent-soft: #d0dbe7;
+    --destination-glow: #3f80c035;
+    --destination-background: #0a0f14;
+    --destination-highlight: #dbe4c3;
+    --destination-surface: #161d23;
+    --destination-border: #3a4a5a;
+}
+
+.location-pyramids-of-giza,
+.destination-pyramids-of-giza {
+    --destination-accent: #e4b590;
+    --destination-accent-soft: #e9dacd;
+    --destination-glow: #cd763235;
+    --destination-background: #140e0a;
+    --destination-highlight: #e1e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-serengeti-national-park,
+.destination-serengeti-national-park {
+    --destination-accent: #cdbfa7;
+    --destination-accent-soft: #e2ddd5;
+    --destination-glow: #a3885c35;
+    --destination-background: #14100a;
+    --destination-highlight: #dbe4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4e3a;
+}
+
+.location-stone-town,
+.destination-stone-town {
+    --destination-accent: #90dde4;
+    --destination-accent-soft: #cde7e9;
+    --destination-glow: #32c0cd35;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3e4cd;
+    --destination-surface: #162223;
+    --destination-border: #3a575a;
+}
+
+.location-table-mountain,
+.destination-table-mountain {
+    --destination-accent: #a7c2ce;
+    --destination-accent-soft: #d5dee2;
+    --destination-glow: #5c8ea335;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c4e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-valley-of-the-kings,
+.destination-valley-of-the-kings {
+    --destination-accent: #ddbd97;
+    --destination-accent-soft: #e7dcd0;
+    --destination-glow: #c0853f35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-victoria-falls,
+.destination-victoria-falls {
+    --destination-accent: #9ac2da;
+    --destination-accent-soft: #d0dee6;
+    --destination-glow: #448dbb35;
+    --destination-background: #0a1014;
+    --destination-highlight: #d8e4c3;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-white-desert,
+.destination-white-desert {
+    --destination-accent: #a2bcd2;
+    --destination-accent-soft: #d3dce3;
+    --destination-glow: #5382ac35;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c7c3e4;
+    --destination-surface: #161d23;
+    --destination-border: #3a4b5a;
+}
+
+.location-angkor-wat,
+.destination-angkor-wat {
+    --destination-accent: #e4b990;
+    --destination-accent-soft: #e9dbcd;
+    --destination-glow: #cd7e3235;
+    --destination-background: #140f0a;
+    --destination-highlight: #dfe4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a4a3a;
+}
+
+.location-annapurna-circuit,
+.destination-annapurna-circuit {
+    --destination-accent: #a7c8cd;
+    --destination-accent-soft: #d5e0e2;
+    --destination-glow: #5c9aa335;
+    --destination-background: #0a1214;
+    --destination-highlight: #c3e4d7;
+    --destination-surface: #162123;
+    --destination-border: #3a565a;
+}
+
+.location-arashiyama-bamboo-forest,
+.destination-arashiyama-bamboo-forest {
+    --destination-accent: #d0d89c;
+    --destination-accent-soft: #e3e5d1;
+    --destination-glow: #a8b74835;
+    --destination-background: #12140a;
+    --destination-highlight: #cfe4c3;
+    --destination-surface: #212316;
+    --destination-border: #565a3a;
+}
+
+.location-banaue-rice-terraces,
+.destination-banaue-rice-terraces {
+    --destination-accent: #a5bfcf;
+    --destination-accent-soft: #d4dde2;
+    --destination-glow: #5989a635;
+    --destination-background: #0a1014;
+    --destination-highlight: #cae4c3;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-bayon-temple,
+.destination-bayon-temple {
+    --destination-accent: #a7b8cd;
+    --destination-accent-soft: #d5dae2;
+    --destination-glow: #5c7ba335;
+    --destination-background: #0a0e14;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #161c23;
+    --destination-border: #3a485a;
+}
+
+.location-borobudur-temple,
+.destination-borobudur-temple {
+    --destination-accent: #c5cda7;
+    --destination-accent-soft: #dfe2d5;
+    --destination-glow: #94a35c35;
+    --destination-background: #12140a;
+    --destination-highlight: #e4d0c3;
+    --destination-surface: #202316;
+    --destination-border: #535a3a;
+}
+
+.location-burj-khalifa,
+.destination-burj-khalifa {
+    --destination-accent: #dabf9a;
+    --destination-accent-soft: #e6ddd1;
+    --destination-glow: #bb884435;
+    --destination-background: #140f0a;
+    --destination-highlight: #dce4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4c3a;
+}
+
+.location-cappadocia,
+.destination-cappadocia {
+    --destination-accent: #dab09a;
+    --destination-accent-soft: #e6d8d0;
+    --destination-glow: #bb6d4435;
+    --destination-background: #140d0a;
+    --destination-highlight: #e4e4c3;
+    --destination-surface: #231a16;
+    --destination-border: #5a453a;
+}
+
+.location-dotonbori,
+.destination-dotonbori {
+    --destination-accent: #aaa7cd;
+    --destination-accent-soft: #d6d5e2;
+    --destination-glow: #615ca335;
+    --destination-background: #0b0a14;
+    --destination-highlight: #dbc3e4;
+    --destination-surface: #171623;
+    --destination-border: #3c3a5a;
+}
+
+.location-el-nido,
+.destination-el-nido {
+    --destination-accent: #92e1e2;
+    --destination-accent-soft: #cee8e9;
+    --destination-glow: #35c7ca35;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3cee4;
+    --destination-surface: #162323;
+    --destination-border: #3a5a5a;
+}
+
+.location-forbidden-city,
+.destination-forbidden-city {
+    --destination-accent: #d0b7a4;
+    --destination-accent-soft: #e3dad4;
+    --destination-glow: #a87a5735;
+    --destination-background: #140e0a;
+    --destination-highlight: #e1e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-fushimi-inari-taisha,
+.destination-fushimi-inari-taisha {
+    --destination-accent: #e4b090;
+    --destination-accent-soft: #e9d8cd;
+    --destination-glow: #cd6d3235;
+    --destination-background: #140e0a;
+    --destination-highlight: #e3e4c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a463a;
+}
+
+.location-gardens-by-the-bay,
+.destination-gardens-by-the-bay {
+    --destination-accent: #90d2e4;
+    --destination-accent-soft: #cde3e9;
+    --destination-glow: #32adcd35;
+    --destination-background: #0a1214;
+    --destination-highlight: #d5e4c3;
+    --destination-surface: #162023;
+    --destination-border: #3a535a;
+}
+
+.location-golden-bridge,
+.destination-golden-bridge {
+    --destination-accent: #91c3e3;
+    --destination-accent-soft: #cedee9;
+    --destination-glow: #3490cb35;
+    --destination-background: #0a1014;
+    --destination-highlight: #cee4c3;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-grand-palace-bangkok,
+.destination-grand-palace-bangkok {
+    --destination-accent: #d5bb9f;
+    --destination-accent-soft: #e4dcd2;
+    --destination-glow: #b1824e35;
+    --destination-background: #140f0a;
+    --destination-highlight: #d1e4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-great-wall-of-china,
+.destination-great-wall-of-china {
+    --destination-accent: #cdbda7;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3845c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4c3a;
+}
+
+.location-gyeongbokgung-palace,
+.destination-gyeongbokgung-palace {
+    --destination-accent: #a7b9cd;
+    --destination-accent-soft: #d5dbe2;
+    --destination-glow: #5c7ea335;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c9c3e4;
+    --destination-surface: #161c23;
+    --destination-border: #3a495a;
+}
+
+.location-ha-long-bay,
+.destination-ha-long-bay {
+    --destination-accent: #90d5e4;
+    --destination-accent-soft: #cde4e9;
+    --destination-glow: #32b0cd35;
+    --destination-background: #0a1214;
+    --destination-highlight: #e4dec3;
+    --destination-surface: #162123;
+    --destination-border: #3a545a;
+}
+
+.location-hagia-sophia,
+.destination-hagia-sophia {
+    --destination-accent: #b7cda7;
+    --destination-accent-soft: #dae2d5;
+    --destination-glow: #79a35c35;
+    --destination-background: #0e140a;
+    --destination-highlight: #c3d9e4;
+    --destination-surface: #1b2316;
+    --destination-border: #475a3a;
+}
+
+.location-hegra,
+.destination-hegra {
+    --destination-accent: #dab49b;
+    --destination-accent-soft: #e6d9d1;
+    --destination-glow: #ba744535;
+    --destination-background: #140e0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a473a;
+}
+
+.location-hiroshima-peace-memorial-park,
+.destination-hiroshima-peace-memorial-park {
+    --destination-accent: #d2c6a2;
+    --destination-accent-soft: #e3dfd3;
+    --destination-glow: #ac955335;
+    --destination-background: #14110a;
+    --destination-highlight: #d7e4c3;
+    --destination-surface: #232016;
+    --destination-border: #5a523a;
+}
+
+.location-hoi-an-ancient-town,
+.destination-hoi-an-ancient-town {
+    --destination-accent: #cdbba7;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3815c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #d2e4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-jeju-island,
+.destination-jeju-island {
+    --destination-accent: #90c8e4;
+    --destination-accent-soft: #cde0e9;
+    --destination-glow: #3299cd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3c3e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a4f5a;
+}
+
+.location-jiuzhaigou-valley,
+.destination-jiuzhaigou-valley {
+    --destination-accent: #a5ccd0;
+    --destination-accent-soft: #d4e1e3;
+    --destination-glow: #58a0a735;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3e4cc;
+    --destination-surface: #162223;
+    --destination-border: #3a575a;
+}
+
+.location-kathmandu-durbar-square,
+.destination-kathmandu-durbar-square {
+    --destination-accent: #e0959a;
+    --destination-accent-soft: #e8cfd1;
+    --destination-glow: #c53a4535;
+    --destination-background: #140a0b;
+    --destination-highlight: #e4d6c3;
+    --destination-surface: #231617;
+    --destination-border: #5a3a3c;
+}
+
+.location-kerala-backwaters,
+.destination-kerala-backwaters {
+    --destination-accent: #90c3e4;
+    --destination-accent-soft: #cddee9;
+    --destination-glow: #3290cd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4d3;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-kinkaku-ji,
+.destination-kinkaku-ji {
+    --destination-accent: #d2bea3;
+    --destination-accent-soft: #e3ddd3;
+    --destination-glow: #ab875435;
+    --destination-background: #14100a;
+    --destination-highlight: #d7e4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4d3a;
+}
+
+.location-komodo-national-park,
+.destination-komodo-national-park {
+    --destination-accent: #a4c8d0;
+    --destination-accent-soft: #d4e0e3;
+    --destination-glow: #579aa835;
+    --destination-background: #0a1214;
+    --destination-highlight: #c3e4cf;
+    --destination-surface: #162123;
+    --destination-border: #3a545a;
+}
+
+.location-langkawi-sky-bridge,
+.destination-langkawi-sky-bridge {
+    --destination-accent: #c8cda7;
+    --destination-accent-soft: #e0e2d5;
+    --destination-glow: #9aa35c35;
+    --destination-background: #12140a;
+    --destination-highlight: #cae4c3;
+    --destination-surface: #212316;
+    --destination-border: #565a3a;
+}
+
+.location-li-river,
+.destination-li-river {
+    --destination-accent: #a7cdca;
+    --destination-accent-soft: #d5e2e1;
+    --destination-glow: #5ca39d35;
+    --destination-background: #0a1413;
+    --destination-highlight: #c3d6e4;
+    --destination-surface: #162322;
+    --destination-border: #3a5a57;
+}
+
+.location-male-atoll,
+.destination-male-atoll {
+    --destination-accent: #90e0e4;
+    --destination-accent-soft: #cde8e9;
+    --destination-glow: #32c5cd35;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3d0e4;
+    --destination-surface: #162223;
+    --destination-border: #3a595a;
+}
+
+.location-marina-bay-sands,
+.destination-marina-bay-sands {
+    --destination-accent: #91c7e4;
+    --destination-accent-soft: #cddfe9;
+    --destination-glow: #3296cd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3c3e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a4f5a;
+}
+
+.location-mount-bromo,
+.destination-mount-bromo {
+    --destination-accent: #ddb897;
+    --destination-accent-soft: #e7dbd0;
+    --destination-glow: #c07c3f35;
+    --destination-background: #140f0a;
+    --destination-highlight: #e0e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a493a;
+}
+
+.location-mount-everest-base-camp,
+.destination-mount-everest-base-camp {
+    --destination-accent: #90cbe4;
+    --destination-accent-soft: #cde1e9;
+    --destination-glow: #329ecd35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c4e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-mount-fuji,
+.destination-mount-fuji {
+    --destination-accent: #90e1e4;
+    --destination-accent-soft: #cde9e9;
+    --destination-glow: #32c8cd35;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3c9e4;
+    --destination-surface: #162323;
+    --destination-border: #3a595a;
+}
+
+.location-nara-park,
+.destination-nara-park {
+    --destination-accent: #cda8a7;
+    --destination-accent-soft: #e2d5d5;
+    --destination-glow: #a35f5c35;
+    --destination-background: #140a0a;
+    --destination-highlight: #e4dac3;
+    --destination-surface: #231716;
+    --destination-border: #5a3b3a;
+}
+
+.location-nusa-penida,
+.destination-nusa-penida {
+    --destination-accent: #90e4e1;
+    --destination-accent-soft: #cde9e9;
+    --destination-glow: #32cdc835;
+    --destination-background: #0a1413;
+    --destination-highlight: #e4ddc3;
+    --destination-surface: #162323;
+    --destination-border: #3a5a59;
+}
+
+.location-pamukkale,
+.destination-pamukkale {
+    --destination-accent: #a7c5cd;
+    --destination-accent-soft: #d5dfe2;
+    --destination-glow: #5c94a335;
+    --destination-background: #0a1214;
+    --destination-highlight: #c3c7e4;
+    --destination-surface: #162023;
+    --destination-border: #3a535a;
+}
+
+.location-pangong-lake,
+.destination-pangong-lake {
+    --destination-accent: #90c1e4;
+    --destination-accent-soft: #cddee9;
+    --destination-glow: #328ccd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-petra,
+.destination-petra {
+    --destination-accent: #dda797;
+    --destination-accent-soft: #e7d5cf;
+    --destination-glow: #c15c3e35;
+    --destination-background: #140c0a;
+    --destination-highlight: #e4e0c3;
+    --destination-surface: #231916;
+    --destination-border: #5a413a;
+}
+
+.location-petronas-towers,
+.destination-petronas-towers {
+    --destination-accent: #a5b9cf;
+    --destination-accent-soft: #d4dbe2;
+    --destination-glow: #587da735;
+    --destination-background: #0a0e14;
+    --destination-highlight: #c3e4e1;
+    --destination-surface: #161c23;
+    --destination-border: #3a495a;
+}
+
+.location-phi-phi-islands,
+.destination-phi-phi-islands {
+    --destination-accent: #90c2e4;
+    --destination-accent-soft: #cddee9;
+    --destination-glow: #328ecd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4e1;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-phong-nha-caves,
+.destination-phong-nha-caves {
+    --destination-accent: #a7cdc6;
+    --destination-accent-soft: #d5e2df;
+    --destination-glow: #5ca39635;
+    --destination-background: #0a1412;
+    --destination-highlight: #c3e4ca;
+    --destination-surface: #162321;
+    --destination-border: #3a5a54;
+}
+
+.location-railay-beach,
+.destination-railay-beach {
+    --destination-accent: #a7bfcd;
+    --destination-accent-soft: #d5dde2;
+    --destination-glow: #5c88a335;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4de;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-raja-ampat,
+.destination-raja-ampat {
+    --destination-accent: #a6bece;
+    --destination-accent-soft: #d4dde2;
+    --destination-glow: #5a86a535;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4d1;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-sheikh-zayed-grand-mosque,
+.destination-sheikh-zayed-grand-mosque {
+    --destination-accent: #e4bd90;
+    --destination-accent-soft: #e9dccd;
+    --destination-glow: #cd843235;
+    --destination-background: #140f0a;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-shibuya-crossing,
+.destination-shibuya-crossing {
+    --destination-accent: #90d1e4;
+    --destination-accent-soft: #cde3e9;
+    --destination-glow: #32aacd35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c7e4;
+    --destination-surface: #162023;
+    --destination-border: #3a535a;
+}
+
+.location-shirakawa-go,
+.destination-shirakawa-go {
+    --destination-accent: #cdbca7;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3835c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-taj-mahal,
+.destination-taj-mahal {
+    --destination-accent: #cfc3a5;
+    --destination-accent-soft: #e2ded4;
+    --destination-glow: #a6905935;
+    --destination-background: #14110a;
+    --destination-highlight: #d8e4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a513a;
+}
+
+.location-tanah-lot,
+.destination-tanah-lot {
+    --destination-accent: #91d0e4;
+    --destination-accent-soft: #cde3e9;
+    --destination-glow: #32a7cd35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3e4db;
+    --destination-surface: #162023;
+    --destination-border: #3a525a;
+}
+
+.location-tigers-nest-monastery,
+.destination-tigers-nest-monastery {
+    --destination-accent: #a6bfce;
+    --destination-accent-soft: #d5dde2;
+    --destination-glow: #5a89a535;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4dc;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-tokyo-skytree,
+.destination-tokyo-skytree {
+    --destination-accent: #a4c5d0;
+    --destination-accent-soft: #d4dfe3;
+    --destination-glow: #5794a835;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c6e4;
+    --destination-surface: #162023;
+    --destination-border: #3a525a;
+}
+
+.location-ubud-rice-terraces,
+.destination-ubud-rice-terraces {
+    --destination-accent: #acda9b;
+    --destination-accent-soft: #d7e6d1;
+    --destination-glow: #66ba4535;
+    --destination-background: #0d140a;
+    --destination-highlight: #dce4c3;
+    --destination-surface: #1a2316;
+    --destination-border: #435a3a;
+}
+
+.location-varanasi-ghats,
+.destination-varanasi-ghats {
+    --destination-accent: #a7b6cd;
+    --destination-accent-soft: #d5dae2;
+    --destination-glow: #5c78a335;
+    --destination-background: #0a0e14;
+    --destination-highlight: #ccc3e4;
+    --destination-surface: #161b23;
+    --destination-border: #3a475a;
+}
+
+.location-wadi-rum,
+.destination-wadi-rum {
+    --destination-accent: #ddab97;
+    --destination-accent-soft: #e7d6cf;
+    --destination-glow: #c0633f35;
+    --destination-background: #140d0a;
+    --destination-highlight: #e4e2c3;
+    --destination-surface: #231a16;
+    --destination-border: #5a433a;
+}
+
+.location-zhangjiajie-national-forest-park,
+.destination-zhangjiajie-national-forest-park {
+    --destination-accent: #bccda7;
+    --destination-accent-soft: #dce2d5;
+    --destination-glow: #83a35c35;
+    --destination-background: #0f140a;
+    --destination-highlight: #e4e2c3;
+    --destination-surface: #1d2316;
+    --destination-border: #4c5a3a;
+}
+
+.location-acropolis-of-athens,
+.destination-acropolis-of-athens {
+    --destination-accent: #cdb8a7;
+    --destination-accent-soft: #e2dad5;
+    --destination-glow: #a37b5c35;
+    --destination-background: #140e0a;
+    --destination-highlight: #e1e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-alfama,
+.destination-alfama {
+    --destination-accent: #d1a3a8;
+    --destination-accent-soft: #e3d4d5;
+    --destination-glow: #aa555e35;
+    --destination-background: #140a0b;
+    --destination-highlight: #c3cae4;
+    --destination-surface: #231617;
+    --destination-border: #5a3a3d;
+}
+
+.location-amalfi-coast,
+.destination-amalfi-coast {
+    --destination-accent: #a7b1cd;
+    --destination-accent-soft: #d5d8e2;
+    --destination-glow: #5c6fa335;
+    --destination-background: #0a0d14;
+    --destination-highlight: #d0c3e4;
+    --destination-surface: #161a23;
+    --destination-border: #3a425a;
+}
+
+.location-annecy-old-town,
+.destination-annecy-old-town {
+    --destination-accent: #d3bda2;
+    --destination-accent-soft: #e4dcd3;
+    --destination-glow: #ad855235;
+    --destination-background: #140f0a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4c3a;
+}
+
+.location-bastei-bridge,
+.destination-bastei-bridge {
+    --destination-accent: #d2bba2;
+    --destination-accent-soft: #e3dcd3;
+    --destination-glow: #ac815335;
+    --destination-background: #140f0a;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4a3a;
+}
+
+.location-bay-of-kotor,
+.destination-bay-of-kotor {
+    --destination-accent: #90cfe4;
+    --destination-accent-soft: #cde2e9;
+    --destination-glow: #32a6cd35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c8e4c3;
+    --destination-surface: #162023;
+    --destination-border: #3a525a;
+}
+
+.location-benagil-cave,
+.destination-benagil-cave {
+    --destination-accent: #d9c09c;
+    --destination-accent-soft: #e6ddd1;
+    --destination-glow: #b88b4735;
+    --destination-background: #14100a;
+    --destination-highlight: #c3e4db;
+    --destination-surface: #231e16;
+    --destination-border: #5a4d3a;
+}
+
+.location-bran-castle,
+.destination-bran-castle {
+    --destination-accent: #cdc0a7;
+    --destination-accent-soft: #e2ddd5;
+    --destination-glow: #a38a5c35;
+    --destination-background: #14100a;
+    --destination-highlight: #dbe4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a4f3a;
+}
+
+.location-budapest-parliament,
+.destination-budapest-parliament {
+    --destination-accent: #d7d99b;
+    --destination-accent-soft: #e5e6d1;
+    --destination-glow: #b5b94635;
+    --destination-background: #13140a;
+    --destination-highlight: #e4cec3;
+    --destination-surface: #232316;
+    --destination-border: #595a3a;
+}
+
+.location-carpathian-mountains,
+.destination-carpathian-mountains {
+    --destination-accent: #a7becd;
+    --destination-accent-soft: #d5dce2;
+    --destination-glow: #5c86a335;
+    --destination-background: #0a1014;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-charles-bridge,
+.destination-charles-bridge {
+    --destination-accent: #e4b290;
+    --destination-accent-soft: #e9d9cd;
+    --destination-glow: #cd713235;
+    --destination-background: #140e0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a473a;
+}
+
+.location-cinque-terre,
+.destination-cinque-terre {
+    --destination-accent: #90d8e4;
+    --destination-accent-soft: #cde5e9;
+    --destination-glow: #32b7cd35;
+    --destination-background: #0a1214;
+    --destination-highlight: #c3cfe4;
+    --destination-surface: #162123;
+    --destination-border: #3a565a;
+}
+
+.location-cliffs-of-moher,
+.destination-cliffs-of-moher {
+    --destination-accent: #a7c0cd;
+    --destination-accent-soft: #d5dde2;
+    --destination-glow: #5c8aa335;
+    --destination-background: #0a1014;
+    --destination-highlight: #dce4c3;
+    --destination-surface: #161f23;
+    --destination-border: #3a4f5a;
+}
+
+.location-colosseum,
+.destination-colosseum {
+    --destination-accent: #cebca8;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3825c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #d5e4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-covadonga-lakes,
+.destination-covadonga-lakes {
+    --destination-accent: #a1c1d4;
+    --destination-accent-soft: #d3dee4;
+    --destination-glow: #518cae35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c4c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-dubrovnik-old-town,
+.destination-dubrovnik-old-town {
+    --destination-accent: #e1be94;
+    --destination-accent-soft: #e8dcce;
+    --destination-glow: #c7863835;
+    --destination-background: #140f0a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-edinburgh-castle,
+.destination-edinburgh-castle {
+    --destination-accent: #ceb8a6;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a47c5b35;
+    --destination-background: #140e0a;
+    --destination-highlight: #e0e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-eiffel-tower,
+.destination-eiffel-tower {
+    --destination-accent: #96b9de;
+    --destination-accent-soft: #cfdbe8;
+    --destination-glow: #3c7ec335;
+    --destination-background: #0a0f14;
+    --destination-highlight: #e2c3e4;
+    --destination-surface: #161c23;
+    --destination-border: #3a495a;
+}
+
+.location-florence-historic-centre,
+.destination-florence-historic-centre {
+    --destination-accent: #debe97;
+    --destination-accent-soft: #e7ddcf;
+    --destination-glow: #c1873e35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4c3a;
+}
+
+.location-geirangerfjord,
+.destination-geirangerfjord {
+    --destination-accent: #a4c3d0;
+    --destination-accent-soft: #d4dee3;
+    --destination-glow: #5791a835;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3e4d6;
+    --destination-surface: #161f23;
+    --destination-border: #3a515a;
+}
+
+.location-giants-causeway,
+.destination-giants-causeway {
+    --destination-accent: #d2b5a2;
+    --destination-accent-soft: #e3dad3;
+    --destination-glow: #ac765335;
+    --destination-background: #140e0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a463a;
+}
+
+.location-hallstatt,
+.destination-hallstatt {
+    --destination-accent: #a5bed0;
+    --destination-accent-soft: #d4dde3;
+    --destination-glow: #5887a735;
+    --destination-background: #0a1014;
+    --destination-highlight: #c5c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-hoverla,
+.destination-hoverla {
+    --destination-accent: #9cb6d8;
+    --destination-accent-soft: #d1dae5;
+    --destination-glow: #4877b735;
+    --destination-background: #0a0e14;
+    --destination-highlight: #c3e3e4;
+    --destination-surface: #161c23;
+    --destination-border: #3a485a;
+}
+
+.location-interlaken,
+.destination-interlaken {
+    --destination-accent: #90b9e4;
+    --destination-accent-soft: #cddbe9;
+    --destination-glow: #327ecd35;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c9c3e4;
+    --destination-surface: #161c23;
+    --destination-border: #3a4a5a;
+}
+
+.location-isle-of-skye,
+.destination-isle-of-skye {
+    --destination-accent: #d1d1a3;
+    --destination-accent-soft: #e3e3d4;
+    --destination-glow: #aaa95535;
+    --destination-background: #14130a;
+    --destination-highlight: #c3e3e4;
+    --destination-surface: #232316;
+    --destination-border: #5a5a3a;
+}
+
+.location-jokulsarlon,
+.destination-jokulsarlon {
+    --destination-accent: #a6bccf;
+    --destination-accent-soft: #d4dce2;
+    --destination-glow: #5a82a535;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c7c3e4;
+    --destination-surface: #161d23;
+    --destination-border: #3a4b5a;
+}
+
+.location-kamianets-podilskyi-castle,
+.destination-kamianets-podilskyi-castle {
+    --destination-accent: #cdb9a7;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a37d5c35;
+    --destination-background: #140e0a;
+    --destination-highlight: #c3e4c5;
+    --destination-surface: #231c16;
+    --destination-border: #5a493a;
+}
+
+.location-konigssee,
+.destination-konigssee {
+    --destination-accent: #a6aecf;
+    --destination-accent-soft: #d4d7e2;
+    --destination-glow: #5968a635;
+    --destination-background: #0a0c14;
+    --destination-highlight: #d2c3e4;
+    --destination-surface: #161923;
+    --destination-border: #3a405a;
+}
+
+.location-kotor-old-town,
+.destination-kotor-old-town {
+    --destination-accent: #cebda8;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3835c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #c3e4d9;
+    --destination-surface: #231d16;
+    --destination-border: #5a4c3a;
+}
+
+.location-kyiv-pechersk-lavra,
+.destination-kyiv-pechersk-lavra {
+    --destination-accent: #cdc1a7;
+    --destination-accent-soft: #e2ded5;
+    --destination-glow: #a38c5c35;
+    --destination-background: #14100a;
+    --destination-highlight: #c3e4d8;
+    --destination-surface: #231f16;
+    --destination-border: #5a503a;
+}
+
+.location-lake-bohinj,
+.destination-lake-bohinj {
+    --destination-accent: #a6c3ce;
+    --destination-accent-soft: #d5dee2;
+    --destination-glow: #5b90a435;
+    --destination-background: #0a1114;
+    --destination-highlight: #d7e4c3;
+    --destination-surface: #161f23;
+    --destination-border: #3a515a;
+}
+
+.location-lake-como,
+.destination-lake-como {
+    --destination-accent: #90d0e4;
+    --destination-accent-soft: #cde3e9;
+    --destination-glow: #32a8cd35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c6e4;
+    --destination-surface: #162023;
+    --destination-border: #3a525a;
+}
+
+.location-lake-lucerne,
+.destination-lake-lucerne {
+    --destination-accent: #90b7e4;
+    --destination-accent-soft: #cddae9;
+    --destination-glow: #327acd35;
+    --destination-background: #0a0e14;
+    --destination-highlight: #c3e4da;
+    --destination-surface: #161c23;
+    --destination-border: #3a495a;
+}
+
+.location-lauterbrunnen-valley,
+.destination-lauterbrunnen-valley {
+    --destination-accent: #a6bace;
+    --destination-accent-soft: #d4dbe2;
+    --destination-glow: #5a7ea535;
+    --destination-background: #0a0f14;
+    --destination-highlight: #dfe4c3;
+    --destination-surface: #161c23;
+    --destination-border: #3a495a;
+}
+
+.location-lovoten-islands,
+.destination-lovoten-islands {
+    --destination-accent: #94c0e1;
+    --destination-accent-soft: #cedde8;
+    --destination-glow: #388bc735;
+    --destination-background: #0a1014;
+    --destination-highlight: #c6c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-lviv-old-town,
+.destination-lviv-old-town {
+    --destination-accent: #cebea8;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3865c35;
+    --destination-background: #14100a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4d3a;
+}
+
+.location-matterhorn,
+.destination-matterhorn {
+    --destination-accent: #90bde4;
+    --destination-accent-soft: #cddce9;
+    --destination-glow: #3285cd35;
+    --destination-background: #0a0f14;
+    --destination-highlight: #d1e4c3;
+    --destination-surface: #161d23;
+    --destination-border: #3a4b5a;
+}
+
+.location-meteora,
+.destination-meteora {
+    --destination-accent: #cdc3a7;
+    --destination-accent-soft: #e2ded5;
+    --destination-glow: #a3905c35;
+    --destination-background: #14110a;
+    --destination-highlight: #d8e4c3;
+    --destination-surface: #232016;
+    --destination-border: #5a513a;
+}
+
+.location-mont-saint-michel,
+.destination-mont-saint-michel {
+    --destination-accent: #d9cc9c;
+    --destination-accent-soft: #e6e1d1;
+    --destination-glow: #b8a04735;
+    --destination-background: #14120a;
+    --destination-highlight: #d5e4c3;
+    --destination-surface: #232016;
+    --destination-border: #5a533a;
+}
+
+.location-mostar-old-bridge,
+.destination-mostar-old-bridge {
+    --destination-accent: #b6cea8;
+    --destination-accent-soft: #dae2d5;
+    --destination-glow: #77a35c35;
+    --destination-background: #0e140a;
+    --destination-highlight: #c3d2e4;
+    --destination-surface: #1b2316;
+    --destination-border: #465a3a;
+}
+
+.location-navagio-beach,
+.destination-navagio-beach {
+    --destination-accent: #90c9e4;
+    --destination-accent-soft: #cde0e9;
+    --destination-glow: #329bcd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3c4e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-neuschwanstein-castle,
+.destination-neuschwanstein-castle {
+    --destination-accent: #c7cda7;
+    --destination-accent-soft: #dfe2d5;
+    --destination-glow: #96a35c35;
+    --destination-background: #12140a;
+    --destination-highlight: #c9e4c3;
+    --destination-surface: #212316;
+    --destination-border: #545a3a;
+}
+
+.location-nyhavn,
+.destination-nyhavn {
+    --destination-accent: #cdb5a7;
+    --destination-accent-soft: #e2d9d5;
+    --destination-glow: #a3755c35;
+    --destination-background: #140d0a;
+    --destination-highlight: #e4e4c3;
+    --destination-surface: #231b16;
+    --destination-border: #5a453a;
+}
+
+.location-ohrid-old-town,
+.destination-ohrid-old-town {
+    --destination-accent: #cebba8;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a3805c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #e0e4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4a3a;
+}
+
+.location-oia,
+.destination-oia {
+    --destination-accent: #95cee0;
+    --destination-accent-soft: #cfe2e8;
+    --destination-glow: #3aa5c535;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c7e4;
+    --destination-surface: #162023;
+    --destination-border: #3a535a;
+}
+
+.location-old-town-square,
+.destination-old-town-square {
+    --destination-accent: #ceb9a8;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a37d5c35;
+    --destination-background: #140e0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a493a;
+}
+
+.location-park-guell,
+.destination-park-guell {
+    --destination-accent: #a3cad1;
+    --destination-accent-soft: #d3e1e3;
+    --destination-glow: #549dab35;
+    --destination-background: #0a1214;
+    --destination-highlight: #d9e4c3;
+    --destination-surface: #162123;
+    --destination-border: #3a555a;
+}
+
+.location-pena-palace,
+.destination-pena-palace {
+    --destination-accent: #d8d49d;
+    --destination-accent-soft: #e5e4d1;
+    --destination-glow: #b6af4935;
+    --destination-background: #14130a;
+    --destination-highlight: #c3dde4;
+    --destination-surface: #232216;
+    --destination-border: #5a583a;
+}
+
+.location-plaza-de-espana,
+.destination-plaza-de-espana {
+    --destination-accent: #d5b69f;
+    --destination-accent-soft: #e4dad2;
+    --destination-glow: #b2784d35;
+    --destination-background: #140e0a;
+    --destination-highlight: #e1e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-plitvice-lakes,
+.destination-plitvice-lakes {
+    --destination-accent: #90e4c2;
+    --destination-accent-soft: #cde9de;
+    --destination-glow: #32cd8e35;
+    --destination-background: #0a1410;
+    --destination-highlight: #c3e4c3;
+    --destination-surface: #16231e;
+    --destination-border: #3a5a4d;
+}
+
+.location-preikestolen,
+.destination-preikestolen {
+    --destination-accent: #a8bfce;
+    --destination-accent-soft: #d5dde2;
+    --destination-glow: #5c88a335;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-reynisfjara-beach,
+.destination-reynisfjara-beach {
+    --destination-accent: #9bb0d9;
+    --destination-accent-soft: #d1d8e6;
+    --destination-glow: #466db935;
+    --destination-background: #0a0d14;
+    --destination-highlight: #cec3e4;
+    --destination-surface: #161a23;
+    --destination-border: #3a455a;
+}
+
+.location-rovaniemi,
+.destination-rovaniemi {
+    --destination-accent: #90e4c6;
+    --destination-accent-soft: #cde9df;
+    --destination-glow: #32cd9535;
+    --destination-background: #0a1410;
+    --destination-highlight: #c3dae4;
+    --destination-surface: #16231e;
+    --destination-border: #3a5a4e;
+}
+
+.location-rovinj-old-town,
+.destination-rovinj-old-town {
+    --destination-accent: #cebba6;
+    --destination-accent-soft: #e2dcd4;
+    --destination-glow: #a5825a35;
+    --destination-background: #140f0a;
+    --destination-highlight: #e3e4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-sagrada-familia,
+.destination-sagrada-familia {
+    --destination-accent: #cec1a8;
+    --destination-accent-soft: #e2ddd5;
+    --destination-glow: #a38b5c35;
+    --destination-background: #14100a;
+    --destination-highlight: #dae4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a4f3a;
+}
+
+.location-santorini-caldera,
+.destination-santorini-caldera {
+    --destination-accent: #92d3e2;
+    --destination-accent-soft: #cee4e9;
+    --destination-glow: #35adca35;
+    --destination-background: #0a1214;
+    --destination-highlight: #c3c8e4;
+    --destination-surface: #162123;
+    --destination-border: #3a545a;
+}
+
+.location-schonbrunn-palace,
+.destination-schonbrunn-palace {
+    --destination-accent: #d1c7a3;
+    --destination-accent-soft: #e3e0d4;
+    --destination-glow: #aa985535;
+    --destination-background: #14110a;
+    --destination-highlight: #d2e4c3;
+    --destination-surface: #232016;
+    --destination-border: #5a533a;
+}
+
+.location-seljalandsfoss,
+.destination-seljalandsfoss {
+    --destination-accent: #dfbe95;
+    --destination-accent-soft: #e8ddcf;
+    --destination-glow: #c3873c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4c3a;
+}
+
+.location-stockholm-archipelago,
+.destination-stockholm-archipelago {
+    --destination-accent: #a7c2cf;
+    --destination-accent-soft: #d5dee2;
+    --destination-glow: #5b8da435;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c5e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-synevyr-lake,
+.destination-synevyr-lake {
+    --destination-accent: #a7cdbb;
+    --destination-accent-soft: #d5e2dc;
+    --destination-glow: #5ca38235;
+    --destination-background: #0a140f;
+    --destination-highlight: #c3d9e4;
+    --destination-surface: #16231d;
+    --destination-border: #3a5a4b;
+}
+
+.location-tower-bridge,
+.destination-tower-bridge {
+    --destination-accent: #a8b7ce;
+    --destination-accent-soft: #d5dae2;
+    --destination-glow: #5c79a335;
+    --destination-background: #0a0e14;
+    --destination-highlight: #cac3e4;
+    --destination-surface: #161b23;
+    --destination-border: #3a475a;
+}
+
+.location-transfagarasan,
+.destination-transfagarasan {
+    --destination-accent: #a7c1cd;
+    --destination-accent-soft: #d5dee2;
+    --destination-glow: #5c8ca335;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3c4e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a4f5a;
+}
+
+.location-tre-cime-di-lavaredo,
+.destination-tre-cime-di-lavaredo {
+    --destination-accent: #a1d3d0;
+    --destination-accent-soft: #d3e4e3;
+    --destination-glow: #51aea735;
+    --destination-background: #0a1413;
+    --destination-highlight: #c3d3e4;
+    --destination-surface: #162322;
+    --destination-border: #3a5a58;
+}
+
+.location-trolltunga,
+.destination-trolltunga {
+    --destination-accent: #a8c0ce;
+    --destination-accent-soft: #d5dde2;
+    --destination-glow: #5c8aa335;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4d4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4f5a;
+}
+
+.location-tromso,
+.destination-tromso {
+    --destination-accent: #90c4e4;
+    --destination-accent-soft: #cddee9;
+    --destination-glow: #3291cd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c5c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-venice-grand-canal,
+.destination-venice-grand-canal {
+    --destination-accent: #90bbe4;
+    --destination-accent-soft: #cddbe9;
+    --destination-glow: #3280cd35;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c8c3e4;
+    --destination-surface: #161d23;
+    --destination-border: #3a4a5a;
+}
+
+.location-verdon-gorge,
+.destination-verdon-gorge {
+    --destination-accent: #c2d2a3;
+    --destination-accent-soft: #dee3d3;
+    --destination-glow: #8fab5435;
+    --destination-background: #10140a;
+    --destination-highlight: #c3e4d1;
+    --destination-surface: #1f2316;
+    --destination-border: #505a3a;
+}
+
+.location-wieliczka-salt-mine,
+.destination-wieliczka-salt-mine {
+    --destination-accent: #cec2a8;
+    --destination-accent-soft: #e2ded5;
+    --destination-glow: #a38d5c35;
+    --destination-background: #14110a;
+    --destination-highlight: #dbe4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a503a;
+}
+
+.location-zakopane,
+.destination-zakopane {
+    --destination-accent: #97bfdd;
+    --destination-accent-soft: #cfdde7;
+    --destination-glow: #3f88c035;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c6c3e4;
+    --destination-surface: #161d23;
+    --destination-border: #3a4c5a;
+}
+
+.location-antelope-canyon,
+.destination-antelope-canyon {
+    --destination-accent: #e4a990;
+    --destination-accent-soft: #e9d5cd;
+    --destination-glow: #cd5f3235;
+    --destination-background: #140d0a;
+    --destination-highlight: #e4e2c3;
+    --destination-surface: #231a16;
+    --destination-border: #5a433a;
+}
+
+.location-banff-national-park,
+.destination-banff-national-park {
+    --destination-accent: #91dfe4;
+    --destination-accent-soft: #cde8e9;
+    --destination-glow: #32c3cd35;
+    --destination-background: #0a1314;
+    --destination-highlight: #cde4c3;
+    --destination-surface: #162223;
+    --destination-border: #3a585a;
+}
+
+.location-bryce-canyon,
+.destination-bryce-canyon {
+    --destination-accent: #dda998;
+    --destination-accent-soft: #e7d5d0;
+    --destination-glow: #c05f3f35;
+    --destination-background: #140c0a;
+    --destination-highlight: #e4e0c3;
+    --destination-surface: #231916;
+    --destination-border: #5a423a;
+}
+
+.location-chichen-itza,
+.destination-chichen-itza {
+    --destination-accent: #b7d89c;
+    --destination-accent-soft: #dae6d1;
+    --destination-glow: #79b84735;
+    --destination-background: #0e140a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #1c2316;
+    --destination-border: #485a3a;
+}
+
+.location-copper-canyon,
+.destination-copper-canyon {
+    --destination-accent: #cdbea7;
+    --destination-accent-soft: #e2dcd5;
+    --destination-glow: #a3865c35;
+    --destination-background: #14100a;
+    --destination-highlight: #dce4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4d3a;
+}
+
+.location-french-quarter,
+.destination-french-quarter {
+    --destination-accent: #d3c5a1;
+    --destination-accent-soft: #e4dfd3;
+    --destination-glow: #ae945135;
+    --destination-background: #14110a;
+    --destination-highlight: #d8e4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a513a;
+}
+
+.location-golden-gate-bridge,
+.destination-golden-gate-bridge {
+    --destination-accent: #aca7cd;
+    --destination-accent-soft: #d7d5e2;
+    --destination-glow: #655ca335;
+    --destination-background: #0b0a14;
+    --destination-highlight: #c3d1e4;
+    --destination-surface: #181623;
+    --destination-border: #3e3a5a;
+}
+
+.location-grand-canyon,
+.destination-grand-canyon {
+    --destination-accent: #d3b6a1;
+    --destination-accent-soft: #e4dad3;
+    --destination-glow: #ae785135;
+    --destination-background: #140e0a;
+    --destination-highlight: #e1e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a473a;
+}
+
+.location-haleakala,
+.destination-haleakala {
+    --destination-accent: #cebaa8;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a37e5c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a493a;
+}
+
+.location-historic-centre-of-mexico-city,
+.destination-historic-centre-of-mexico-city {
+    --destination-accent: #cebfa8;
+    --destination-accent-soft: #e2ddd5;
+    --destination-glow: #a3875c35;
+    --destination-background: #14100a;
+    --destination-highlight: #dde4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4d3a;
+}
+
+.location-holbox-island,
+.destination-holbox-island {
+    --destination-accent: #d7bc9d;
+    --destination-accent-soft: #e5dcd2;
+    --destination-glow: #b5824a35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-icefields-parkway,
+.destination-icefields-parkway {
+    --destination-accent: #a7b7cd;
+    --destination-accent-soft: #d5dae2;
+    --destination-glow: #5c79a335;
+    --destination-background: #0a0e14;
+    --destination-highlight: #cbc3e4;
+    --destination-surface: #161b23;
+    --destination-border: #3a475a;
+}
+
+.location-jasper-national-park,
+.destination-jasper-national-park {
+    --destination-accent: #96bdde;
+    --destination-accent-soft: #cfdce7;
+    --destination-glow: #3d84c235;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c3e4e3;
+    --destination-surface: #161d23;
+    --destination-border: #3a4b5a;
+}
+
+.location-lake-louise,
+.destination-lake-louise {
+    --destination-accent: #91d4e4;
+    --destination-accent-soft: #cde4e9;
+    --destination-glow: #32afcd35;
+    --destination-background: #0a1214;
+    --destination-highlight: #c3e4d0;
+    --destination-surface: #162123;
+    --destination-border: #3a545a;
+}
+
+.location-las-vegas-strip,
+.destination-las-vegas-strip {
+    --destination-accent: #9ec8d6;
+    --destination-accent-soft: #d2e0e5;
+    --destination-glow: #4c99b335;
+    --destination-background: #0a1114;
+    --destination-highlight: #e4e4c3;
+    --destination-surface: #162023;
+    --destination-border: #3a525a;
+}
+
+.location-miami-beach,
+.destination-miami-beach {
+    --destination-accent: #90d4e4;
+    --destination-accent-soft: #cde4e9;
+    --destination-glow: #32afcd35;
+    --destination-background: #0a1214;
+    --destination-highlight: #cbe4c3;
+    --destination-surface: #162123;
+    --destination-border: #3a545a;
+}
+
+.location-monument-valley,
+.destination-monument-valley {
+    --destination-accent: #deb696;
+    --destination-accent-soft: #e7dacf;
+    --destination-glow: #c2783d35;
+    --destination-background: #140e0a;
+    --destination-highlight: #c3e4d8;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-moraine-lake,
+.destination-moraine-lake {
+    --destination-accent: #90c7e4;
+    --destination-accent-soft: #cde0e9;
+    --destination-glow: #3297cd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #dce4c3;
+    --destination-surface: #161f23;
+    --destination-border: #3a4f5a;
+}
+
+.location-na-pali-coast,
+.destination-na-pali-coast {
+    --destination-accent: #91b6e4;
+    --destination-accent-soft: #cddae9;
+    --destination-glow: #3277cd35;
+    --destination-background: #0a0e14;
+    --destination-highlight: #cac3e4;
+    --destination-surface: #161c23;
+    --destination-border: #3a485a;
+}
+
+.location-niagara-falls,
+.destination-niagara-falls {
+    --destination-accent: #91c0e4;
+    --destination-accent-soft: #cddde9;
+    --destination-glow: #328acd35;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c3e4d0;
+    --destination-surface: #161d23;
+    --destination-border: #3a4c5a;
+}
+
+.location-palenque,
+.destination-palenque {
+    --destination-accent: #d2da9a;
+    --destination-accent-soft: #e3e6d1;
+    --destination-glow: #abba4535;
+    --destination-background: #12140a;
+    --destination-highlight: #e4d8c3;
+    --destination-surface: #212316;
+    --destination-border: #565a3a;
+}
+
+.location-quebec-city-old-town,
+.destination-quebec-city-old-town {
+    --destination-accent: #c6cea8;
+    --destination-accent-soft: #dfe2d5;
+    --destination-glow: #95a35c35;
+    --destination-background: #12140a;
+    --destination-highlight: #c9e4c3;
+    --destination-surface: #212316;
+    --destination-border: #545a3a;
+}
+
+.location-space-needle,
+.destination-space-needle {
+    --destination-accent: #a2c4d2;
+    --destination-accent-soft: #d3dfe3;
+    --destination-glow: #5391ac35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c5e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-stanley-park,
+.destination-stanley-park {
+    --destination-accent: #d6bb9e;
+    --destination-accent-soft: #e5dcd2;
+    --destination-glow: #b3824c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #dee4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4b3a;
+}
+
+.location-times-square,
+.destination-times-square {
+    --destination-accent: #a7c3cd;
+    --destination-accent-soft: #d5dee2;
+    --destination-glow: #5c90a335;
+    --destination-background: #0a1114;
+    --destination-highlight: #e4e1c3;
+    --destination-surface: #162023;
+    --destination-border: #3a515a;
+}
+
+.location-tulum,
+.destination-tulum {
+    --destination-accent: #9dc5d8;
+    --destination-accent-soft: #d1dfe5;
+    --destination-glow: #4994b635;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3e4d2;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-whistler,
+.destination-whistler {
+    --destination-accent: #a8b8ce;
+    --destination-accent-soft: #d5dae2;
+    --destination-glow: #5c7ba335;
+    --destination-background: #0a0e14;
+    --destination-highlight: #c9c3e4;
+    --destination-surface: #161c23;
+    --destination-border: #3a485a;
+}
+
+.location-yellowstone-national-park,
+.destination-yellowstone-national-park {
+    --destination-accent: #e4b690;
+    --destination-accent-soft: #e9dacd;
+    --destination-glow: #cd773235;
+    --destination-background: #140e0a;
+    --destination-highlight: #e1e4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a483a;
+}
+
+.location-yosemite-national-park,
+.destination-yosemite-national-park {
+    --destination-accent: #a7a9cd;
+    --destination-accent-soft: #d5d5e2;
+    --destination-glow: #5c5fa335;
+    --destination-background: #0a0a14;
+    --destination-highlight: #dec3e4;
+    --destination-surface: #161723;
+    --destination-border: #3a3b5a;
+}
+
+.location-zion-national-park,
+.destination-zion-national-park {
+    --destination-accent: #bbcea8;
+    --destination-accent-soft: #dbe2d5;
+    --destination-glow: #81a35c35;
+    --destination-background: #0f140a;
+    --destination-highlight: #e4cfc3;
+    --destination-surface: #1d2316;
+    --destination-border: #4a5a3a;
+}
+
+.location-amazon-rainforest,
+.destination-amazon-rainforest {
+    --destination-accent: #ccd4a1;
+    --destination-accent-soft: #e1e4d3;
+    --destination-glow: #a1af5035;
+    --destination-background: #12140a;
+    --destination-highlight: #c3d8e4;
+    --destination-surface: #212316;
+    --destination-border: #565a3a;
+}
+
+.location-angel-falls,
+.destination-angel-falls {
+    --destination-accent: #b6cda7;
+    --destination-accent-soft: #dae2d5;
+    --destination-glow: #78a35c35;
+    --destination-background: #0e140a;
+    --destination-highlight: #c3e4cc;
+    --destination-surface: #1b2316;
+    --destination-border: #475a3a;
+}
+
+.location-atacama-desert,
+.destination-atacama-desert {
+    --destination-accent: #d7ba9d;
+    --destination-accent-soft: #e5dbd1;
+    --destination-glow: #b67f4935;
+    --destination-background: #140f0a;
+    --destination-highlight: #dfe4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4a3a;
+}
+
+.location-cartagena-old-town,
+.destination-cartagena-old-town {
+    --destination-accent: #df9c95;
+    --destination-accent-soft: #e8d1cf;
+    --destination-glow: #c5483a35;
+    --destination-background: #140b0a;
+    --destination-highlight: #e4dcc3;
+    --destination-surface: #231716;
+    --destination-border: #5a3d3a;
+}
+
+.location-christ-the-redeemer,
+.destination-christ-the-redeemer {
+    --destination-accent: #dcb999;
+    --destination-accent-soft: #e7dbd0;
+    --destination-glow: #be7e4135;
+    --destination-background: #140f0a;
+    --destination-highlight: #dfe4c3;
+    --destination-surface: #231c16;
+    --destination-border: #5a493a;
+}
+
+.location-cocora-valley,
+.destination-cocora-valley {
+    --destination-accent: #cacea7;
+    --destination-accent-soft: #e1e2d5;
+    --destination-glow: #9ca35c35;
+    --destination-background: #13140a;
+    --destination-highlight: #cbe4c3;
+    --destination-surface: #222316;
+    --destination-border: #575a3a;
+}
+
+.location-copacabana-beach,
+.destination-copacabana-beach {
+    --destination-accent: #90cce4;
+    --destination-accent-soft: #cde1e9;
+    --destination-glow: #32a1cd35;
+    --destination-background: #0a1114;
+    --destination-highlight: #c3c5e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a515a;
+}
+
+.location-easter-island,
+.destination-easter-island {
+    --destination-accent: #d8c19c;
+    --destination-accent-soft: #e5ded1;
+    --destination-glow: #b78d4835;
+    --destination-background: #14100a;
+    --destination-highlight: #dbe4c3;
+    --destination-surface: #231e16;
+    --destination-border: #5a4e3a;
+}
+
+.location-el-chalten,
+.destination-el-chalten {
+    --destination-accent: #97c0dd;
+    --destination-accent-soft: #cfdde7;
+    --destination-glow: #3e8bc135;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4e2;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-fernando-de-noronha,
+.destination-fernando-de-noronha {
+    --destination-accent: #a2c8d3;
+    --destination-accent-soft: #d3e0e4;
+    --destination-glow: #5299ad35;
+    --destination-background: #0a1114;
+    --destination-highlight: #e4e2c3;
+    --destination-surface: #162023;
+    --destination-border: #3a535a;
+}
+
+.location-galapagos-islands,
+.destination-galapagos-islands {
+    --destination-accent: #9dd3d7;
+    --destination-accent-soft: #d2e4e5;
+    --destination-glow: #4aadb535;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3cce4;
+    --destination-surface: #162223;
+    --destination-border: #3a585a;
+}
+
+.location-guatape,
+.destination-guatape {
+    --destination-accent: #a8c2ce;
+    --destination-accent-soft: #d5dee2;
+    --destination-glow: #5c8ea335;
+    --destination-background: #0a1114;
+    --destination-highlight: #e4e4c3;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-iguazu-falls,
+.destination-iguazu-falls {
+    --destination-accent: #90c0e4;
+    --destination-accent-soft: #cddde9;
+    --destination-glow: #328acd35;
+    --destination-background: #0a0f14;
+    --destination-highlight: #d6e4c3;
+    --destination-surface: #161d23;
+    --destination-border: #3a4c5a;
+}
+
+.location-la-boca,
+.destination-la-boca {
+    --destination-accent: #e0ad94;
+    --destination-accent-soft: #e8d7cf;
+    --destination-glow: #c6683935;
+    --destination-background: #140d0a;
+    --destination-highlight: #dfe4c3;
+    --destination-surface: #231a16;
+    --destination-border: #5a443a;
+}
+
+.location-lake-titicaca,
+.destination-lake-titicaca {
+    --destination-accent: #a9bfce;
+    --destination-accent-soft: #d5dce2;
+    --destination-glow: #5c85a335;
+    --destination-background: #0a1014;
+    --destination-highlight: #c4c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4d5a;
+}
+
+.location-lencois-maranhenses,
+.destination-lencois-maranhenses {
+    --destination-accent: #a7cdcb;
+    --destination-accent-soft: #d5e2e1;
+    --destination-glow: #5ca39e35;
+    --destination-background: #0a1413;
+    --destination-highlight: #e4e0c3;
+    --destination-surface: #162322;
+    --destination-border: #3a5a58;
+}
+
+.location-machu-picchu,
+.destination-machu-picchu {
+    --destination-accent: #9ebed6;
+    --destination-accent-soft: #d2dde5;
+    --destination-glow: #4c86b335;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c3e4e0;
+    --destination-surface: #161d23;
+    --destination-border: #3a4c5a;
+}
+
+.location-marble-caves,
+.destination-marble-caves {
+    --destination-accent: #a7c9cd;
+    --destination-accent-soft: #d5e0e2;
+    --destination-glow: #5c9ca335;
+    --destination-background: #0a1314;
+    --destination-highlight: #c3cbe4;
+    --destination-surface: #162223;
+    --destination-border: #3a575a;
+}
+
+.location-perito-moreno-glacier,
+.destination-perito-moreno-glacier {
+    --destination-accent: #90c5e4;
+    --destination-accent-soft: #cddfe9;
+    --destination-glow: #3293cd35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3e4c7;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-quito-historic-centre,
+.destination-quito-historic-centre {
+    --destination-accent: #cec2a7;
+    --destination-accent-soft: #e2ded5;
+    --destination-glow: #a48f5b35;
+    --destination-background: #14110a;
+    --destination-highlight: #d3e4c3;
+    --destination-surface: #231f16;
+    --destination-border: #5a513a;
+}
+
+.location-rainbow-mountain,
+.destination-rainbow-mountain {
+    --destination-accent: #97b4dd;
+    --destination-accent-soft: #cfd9e7;
+    --destination-glow: #3e74c135;
+    --destination-background: #0a0e14;
+    --destination-highlight: #e4c3c8;
+    --destination-surface: #161b23;
+    --destination-border: #3a475a;
+}
+
+.location-sacred-valley,
+.destination-sacred-valley {
+    --destination-accent: #9dc1d7;
+    --destination-accent-soft: #d2dee5;
+    --destination-glow: #4a8db535;
+    --destination-background: #0a1014;
+    --destination-highlight: #c4c3e4;
+    --destination-surface: #161e23;
+    --destination-border: #3a4e5a;
+}
+
+.location-salar-de-uyuni,
+.destination-salar-de-uyuni {
+    --destination-accent: #a8a9ce;
+    --destination-accent-soft: #d5d5e2;
+    --destination-glow: #5c5da335;
+    --destination-background: #0a0a14;
+    --destination-highlight: #dbc3e4;
+    --destination-surface: #161623;
+    --destination-border: #3a3a5a;
+}
+
+.location-sugarloaf-mountain,
+.destination-sugarloaf-mountain {
+    --destination-accent: #99c6db;
+    --destination-accent-soft: #d0dfe6;
+    --destination-glow: #4395bc35;
+    --destination-background: #0a1014;
+    --destination-highlight: #c3c4e4;
+    --destination-surface: #161f23;
+    --destination-border: #3a505a;
+}
+
+.location-torres-del-paine,
+.destination-torres-del-paine {
+    --destination-accent: #9dbed8;
+    --destination-accent-soft: #d1dde5;
+    --destination-glow: #4987b635;
+    --destination-background: #0a0f14;
+    --destination-highlight: #c6c3e4;
+    --destination-surface: #161d23;
+    --destination-border: #3a4c5a;
+}
+
+.location-valle-de-la-luna,
+.destination-valle-de-la-luna {
+    --destination-accent: #cebba9;
+    --destination-accent-soft: #e2dbd5;
+    --destination-glow: #a37f5c35;
+    --destination-background: #140f0a;
+    --destination-highlight: #e2e4c3;
+    --destination-surface: #231d16;
+    --destination-border: #5a4a3a;
+}

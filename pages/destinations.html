@@ -23,18 +23,25 @@
         </div>
     </header>
     <main>
-        <section class="destinations-hero">
+        <section class="destinations-hero"><div class="environment environment-starry-night" aria-hidden="true"><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span></div>
             <p>197 PLACES</p>
             <h1>Напрямки світу</h1>
             <span>Обирай континент. Обирай настрій. Досліджуй далі.</span>
         </section>
+        <nav class="continent-nav" aria-label="Континенти">
+            <a href="#europe">Європа</a>
+            <a href="#asia">Азія</a>
+            <a href="#africa">Африка</a>
+            <a href="#north-america">Північна Америка</a>
+            <a href="#south-america">Південна Америка</a>
+        </nav>
         <div class="destinations-shell">
         <section class="continent-section" id="europe">
             <div class="continent-heading"><span>EXPLORE</span><h2>Європа</h2><p>69 локацій</p></div>
             <div class="destination-grid">
-                <article class="destination-card theme-historical" data-country="🇩🇪 Німеччина">
+                <article class="destination-card theme-historical destination-bastei-bridge" data-country="🇩🇪 Німеччина">
                     <div class="destination-image">
-                        <img src="../images/places/europe/bastei-bridge.webp" alt="Bastei Bridge, 🇩🇪 Німеччина" onerror="this.style.display='none'" loading="lazy" decoding="async">
+                        <img src="../images/places/europe/bastei-bridge.webp" alt="Bastei Bridge, 🇩🇪 Німеччина" onerror="this.style.display='none'" loading="eager" fetchpriority="high" decoding="async">
                         <span class="image-label">WORLDORA</span>
                     </div>
                     <div class="destination-content">
@@ -44,7 +51,7 @@
                         <a href="../places/europe/bastei-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇩🇪 Німеччина">
+                <article class="destination-card theme-historical destination-neuschwanstein-castle" data-country="🇩🇪 Німеччина">
                     <div class="destination-image">
                         <img src="../images/places/europe/neuschwanstein-castle.webp" alt="Neuschwanstein Castle, 🇩🇪 Німеччина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -56,7 +63,7 @@
                         <a href="../places/europe/neuschwanstein-castle.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇩🇪 Німеччина">
+                <article class="destination-card theme-water destination-konigssee" data-country="🇩🇪 Німеччина">
                     <div class="destination-image">
                         <img src="../images/places/europe/konigssee.webp" alt="Lake Königssee, 🇩🇪 Німеччина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -68,7 +75,7 @@
                         <a href="../places/europe/konigssee.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇦🇹 Австрія">
+                <article class="destination-card theme-nature destination-hallstatt" data-country="🇦🇹 Австрія">
                     <div class="destination-image">
                         <img src="../images/places/europe/hallstatt.webp" alt="Hallstatt, 🇦🇹 Австрія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -80,7 +87,7 @@
                         <a href="../places/europe/hallstatt.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇦🇹 Австрія">
+                <article class="destination-card theme-historical destination-schonbrunn-palace" data-country="🇦🇹 Австрія">
                     <div class="destination-image">
                         <img src="../images/places/europe/schonbrunn-palace.webp" alt="Schönbrunn Palace, 🇦🇹 Австрія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -92,7 +99,7 @@
                         <a href="../places/europe/schonbrunn-palace.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇬🇷 Греція">
+                <article class="destination-card theme-nature destination-oia" data-country="🇬🇷 Греція">
                     <div class="destination-image">
                         <img src="../images/places/europe/oia.webp" alt="Oia, 🇬🇷 Греція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -104,7 +111,7 @@
                         <a href="../places/europe/oia.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇬🇷 Греція">
+                <article class="destination-card theme-nature destination-meteora" data-country="🇬🇷 Греція">
                     <div class="destination-image">
                         <img src="../images/places/europe/meteora.webp" alt="Meteora, 🇬🇷 Греція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -116,7 +123,7 @@
                         <a href="../places/europe/meteora.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇬🇷 Греція">
+                <article class="destination-card theme-historical destination-acropolis-of-athens" data-country="🇬🇷 Греція">
                     <div class="destination-image">
                         <img src="../images/places/europe/acropolis-of-athens.webp" alt="Acropolis of Athens, 🇬🇷 Греція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -128,7 +135,7 @@
                         <a href="../places/europe/acropolis-of-athens.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇬🇷 Греція">
+                <article class="destination-card theme-water destination-navagio-beach" data-country="🇬🇷 Греція">
                     <div class="destination-image">
                         <img src="../images/places/europe/navagio-beach.webp" alt="Navagio Beach, 🇬🇷 Греція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -140,7 +147,7 @@
                         <a href="../places/europe/navagio-beach.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-volcanic" data-country="🇬🇷 Греція">
+                <article class="destination-card theme-volcanic destination-santorini-caldera" data-country="🇬🇷 Греція">
                     <div class="destination-image">
                         <img src="../images/places/europe/santorini-caldera.webp" alt="Santorini Caldera, 🇬🇷 Греція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -152,7 +159,7 @@
                         <a href="../places/europe/santorini-caldera.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇪 Ірландія">
+                <article class="destination-card theme-nature destination-cliffs-of-moher" data-country="🇮🇪 Ірландія">
                     <div class="destination-image">
                         <img src="../images/places/europe/cliffs-of-moher.webp" alt="Cliffs of Moher, 🇮🇪 Ірландія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -164,7 +171,7 @@
                         <a href="../places/europe/cliffs-of-moher.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇬🇧 Велика Британія">
+                <article class="destination-card theme-nature destination-giants-causeway" data-country="🇬🇧 Велика Британія">
                     <div class="destination-image">
                         <img src="../images/places/europe/giants-causeway.webp" alt="Giant's Causeway, 🇬🇧 Велика Британія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -176,7 +183,7 @@
                         <a href="../places/europe/giants-causeway.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇬🇧 Велика Британія">
+                <article class="destination-card theme-historical destination-edinburgh-castle" data-country="🇬🇧 Велика Британія">
                     <div class="destination-image">
                         <img src="../images/places/europe/edinburgh-castle.webp" alt="Edinburgh Castle, 🇬🇧 Велика Британія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -188,7 +195,7 @@
                         <a href="../places/europe/edinburgh-castle.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇬🇧 Велика Британія">
+                <article class="destination-card theme-nature destination-isle-of-skye" data-country="🇬🇧 Велика Британія">
                     <div class="destination-image">
                         <img src="../images/places/europe/isle-of-skye.webp" alt="Isle of Skye, 🇬🇧 Велика Британія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -200,7 +207,7 @@
                         <a href="../places/europe/isle-of-skye.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇬🇧 Велика Британія">
+                <article class="destination-card theme-historical destination-tower-bridge" data-country="🇬🇧 Велика Британія">
                     <div class="destination-image">
                         <img src="../images/places/europe/tower-bridge.webp" alt="Tower Bridge, 🇬🇧 Велика Британія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -212,7 +219,7 @@
                         <a href="../places/europe/tower-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Північна Македонія">
+                <article class="destination-card theme-historical destination-ohrid-old-town" data-country="🌍 Північна Македонія">
                     <div class="destination-image">
                         <img src="../images/places/europe/ohrid-old-town.webp" alt="Ohrid Old Town, 🌍 Північна Македонія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -224,7 +231,7 @@
                         <a href="../places/europe/ohrid-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇫🇷 Франція">
+                <article class="destination-card theme-nature destination-mont-saint-michel" data-country="🇫🇷 Франція">
                     <div class="destination-image">
                         <img src="../images/places/europe/mont-saint-michel.webp" alt="Mont Saint-Michel, 🇫🇷 Франція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -236,7 +243,7 @@
                         <a href="../places/europe/mont-saint-michel.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇫🇷 Франція">
+                <article class="destination-card theme-city destination-eiffel-tower" data-country="🇫🇷 Франція">
                     <div class="destination-image">
                         <img src="../images/places/europe/eiffel-tower.webp" alt="Eiffel Tower, 🇫🇷 Франція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -248,7 +255,7 @@
                         <a href="../places/europe/eiffel-tower.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇫🇷 Франція">
+                <article class="destination-card theme-historical destination-annecy-old-town" data-country="🇫🇷 Франція">
                     <div class="destination-image">
                         <img src="../images/places/europe/annecy-old-town.webp" alt="Annecy Old Town, 🇫🇷 Франція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -260,7 +267,7 @@
                         <a href="../places/europe/annecy-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇫🇷 Франція">
+                <article class="destination-card theme-mountain destination-verdon-gorge" data-country="🇫🇷 Франція">
                     <div class="destination-image">
                         <img src="../images/places/europe/verdon-gorge.webp" alt="Verdon Gorge, 🇫🇷 Франція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -272,7 +279,7 @@
                         <a href="../places/europe/verdon-gorge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇪🇸 Іспанія">
+                <article class="destination-card theme-water destination-covadonga-lakes" data-country="🇪🇸 Іспанія">
                     <div class="destination-image">
                         <img src="../images/places/europe/covadonga-lakes.webp" alt="Covadonga Lakes, 🇪🇸 Іспанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -284,7 +291,7 @@
                         <a href="../places/europe/covadonga-lakes.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇪🇸 Іспанія">
+                <article class="destination-card theme-nature destination-sagrada-familia" data-country="🇪🇸 Іспанія">
                     <div class="destination-image">
                         <img src="../images/places/europe/sagrada-familia.webp" alt="Sagrada Família, 🇪🇸 Іспанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -296,7 +303,7 @@
                         <a href="../places/europe/sagrada-familia.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇪🇸 Іспанія">
+                <article class="destination-card theme-mountain destination-park-guell" data-country="🇪🇸 Іспанія">
                     <div class="destination-image">
                         <img src="../images/places/europe/park-guell.webp" alt="Park Güell, 🇪🇸 Іспанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -308,7 +315,7 @@
                         <a href="../places/europe/park-guell.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇪🇸 Іспанія">
+                <article class="destination-card theme-nature destination-plaza-de-espana" data-country="🇪🇸 Іспанія">
                     <div class="destination-image">
                         <img src="../images/places/europe/plaza-de-espana.webp" alt="Plaza de España, 🇪🇸 Іспанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -320,7 +327,7 @@
                         <a href="../places/europe/plaza-de-espana.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇨🇿 Чехія">
+                <article class="destination-card theme-historical destination-old-town-square" data-country="🇨🇿 Чехія">
                     <div class="destination-image">
                         <img src="../images/places/europe/old-town-square.webp" alt="Old Town Square, 🇨🇿 Чехія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -332,7 +339,7 @@
                         <a href="../places/europe/old-town-square.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇨🇿 Чехія">
+                <article class="destination-card theme-historical destination-charles-bridge" data-country="🇨🇿 Чехія">
                     <div class="destination-image">
                         <img src="../images/places/europe/charles-bridge.webp" alt="Charles Bridge, 🇨🇿 Чехія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -344,7 +351,7 @@
                         <a href="../places/europe/charles-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇲🇪 Чорногорія">
+                <article class="destination-card theme-historical destination-kotor-old-town" data-country="🇲🇪 Чорногорія">
                     <div class="destination-image">
                         <img src="../images/places/europe/kotor-old-town.webp" alt="Kotor Old Town, 🇲🇪 Чорногорія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -356,7 +363,7 @@
                         <a href="../places/europe/kotor-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇲🇪 Чорногорія">
+                <article class="destination-card theme-water destination-bay-of-kotor" data-country="🇲🇪 Чорногорія">
                     <div class="destination-image">
                         <img src="../images/places/europe/bay-of-kotor.webp" alt="Bay of Kotor, 🇲🇪 Чорногорія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -368,7 +375,7 @@
                         <a href="../places/europe/bay-of-kotor.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇨🇭 Швейцарія">
+                <article class="destination-card theme-waterfall destination-lauterbrunnen-valley" data-country="🇨🇭 Швейцарія">
                     <div class="destination-image">
                         <img src="../images/places/europe/lauterbrunnen-valley.webp" alt="Lauterbrunnen Valley, 🇨🇭 Швейцарія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -380,7 +387,7 @@
                         <a href="../places/europe/lauterbrunnen-valley.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇨🇭 Швейцарія">
+                <article class="destination-card theme-water destination-lake-lucerne" data-country="🇨🇭 Швейцарія">
                     <div class="destination-image">
                         <img src="../images/places/europe/lake-lucerne.webp" alt="Lake Lucerne, 🇨🇭 Швейцарія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -392,7 +399,7 @@
                         <a href="../places/europe/lake-lucerne.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇨🇭 Швейцарія">
+                <article class="destination-card theme-snowy destination-matterhorn" data-country="🇨🇭 Швейцарія">
                     <div class="destination-image">
                         <img src="../images/places/europe/matterhorn.webp" alt="Matterhorn, 🇨🇭 Швейцарія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -404,7 +411,7 @@
                         <a href="../places/europe/matterhorn.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇨🇭 Швейцарія">
+                <article class="destination-card theme-water destination-interlaken" data-country="🇨🇭 Швейцарія">
                     <div class="destination-image">
                         <img src="../images/places/europe/interlaken.webp" alt="Interlaken, 🇨🇭 Швейцарія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -416,7 +423,7 @@
                         <a href="../places/europe/interlaken.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🌍 Швеція">
+                <article class="destination-card theme-nature destination-stockholm-archipelago" data-country="🌍 Швеція">
                     <div class="destination-image">
                         <img src="../images/places/europe/stockholm-archipelago.webp" alt="Stockholm Archipelago, 🌍 Швеція" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -428,7 +435,7 @@
                         <a href="../places/europe/stockholm-archipelago.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇵🇱 Польща">
+                <article class="destination-card theme-nature destination-zakopane" data-country="🇵🇱 Польща">
                     <div class="destination-image">
                         <img src="../images/places/europe/zakopane.webp" alt="Zakopane, 🇵🇱 Польща" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -440,7 +447,7 @@
                         <a href="../places/europe/zakopane.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇵🇱 Польща">
+                <article class="destination-card theme-nature destination-wieliczka-salt-mine" data-country="🇵🇱 Польща">
                     <div class="destination-image">
                         <img src="../images/places/europe/wieliczka-salt-mine.webp" alt="Wieliczka Salt Mine, 🇵🇱 Польща" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -452,7 +459,7 @@
                         <a href="../places/europe/wieliczka-salt-mine.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇸🇮 Словенія">
+                <article class="destination-card theme-water destination-lake-bohinj" data-country="🇸🇮 Словенія">
                     <div class="destination-image">
                         <img src="../images/places/europe/lake-bohinj.webp" alt="Lake Bohinj, 🇸🇮 Словенія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -464,7 +471,7 @@
                         <a href="../places/europe/lake-bohinj.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇭🇷 Хорватія">
+                <article class="destination-card theme-waterfall destination-plitvice-lakes" data-country="🇭🇷 Хорватія">
                     <div class="destination-image">
                         <img src="../images/places/europe/plitvice-lakes.webp" alt="Plitvice Lakes, 🇭🇷 Хорватія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -476,7 +483,7 @@
                         <a href="../places/europe/plitvice-lakes.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇭🇷 Хорватія">
+                <article class="destination-card theme-historical destination-dubrovnik-old-town" data-country="🇭🇷 Хорватія">
                     <div class="destination-image">
                         <img src="../images/places/europe/dubrovnik-old-town.webp" alt="Dubrovnik Old Town, 🇭🇷 Хорватія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -488,7 +495,7 @@
                         <a href="../places/europe/dubrovnik-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇭🇷 Хорватія">
+                <article class="destination-card theme-historical destination-rovinj-old-town" data-country="🇭🇷 Хорватія">
                     <div class="destination-image">
                         <img src="../images/places/europe/rovinj-old-town.webp" alt="Rovinj Old Town, 🇭🇷 Хорватія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -500,7 +507,7 @@
                         <a href="../places/europe/rovinj-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇷🇴 Румунія">
+                <article class="destination-card theme-historical destination-bran-castle" data-country="🇷🇴 Румунія">
                     <div class="destination-image">
                         <img src="../images/places/europe/bran-castle.webp" alt="Bran Castle, 🇷🇴 Румунія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -512,7 +519,7 @@
                         <a href="../places/europe/bran-castle.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇷🇴 Румунія">
+                <article class="destination-card theme-nature destination-transfagarasan" data-country="🇷🇴 Румунія">
                     <div class="destination-image">
                         <img src="../images/places/europe/transfagarasan.webp" alt="Transfăgărășan, 🇷🇴 Румунія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -524,7 +531,7 @@
                         <a href="../places/europe/transfagarasan.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-snowy destination-venice-grand-canal" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/venice-grand-canal.webp" alt="Venice Grand Canal, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -536,7 +543,7 @@
                         <a href="../places/europe/venice-grand-canal.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-nature destination-cinque-terre" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/cinque-terre.webp" alt="Cinque Terre, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -548,7 +555,7 @@
                         <a href="../places/europe/cinque-terre.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-nature destination-tre-cime-di-lavaredo" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/tre-cime-di-lavaredo.webp" alt="Tre Cime di Lavaredo, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -560,7 +567,7 @@
                         <a href="../places/europe/tre-cime-di-lavaredo.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-water destination-lake-como" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/lake-como.webp" alt="Lake Como, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -572,7 +579,7 @@
                         <a href="../places/europe/lake-como.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-water destination-amalfi-coast" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/amalfi-coast.webp" alt="Amalfi Coast, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -584,7 +591,7 @@
                         <a href="../places/europe/amalfi-coast.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-historical destination-colosseum" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/colosseum.webp" alt="Colosseum, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -596,7 +603,7 @@
                         <a href="../places/europe/colosseum.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇮🇹 Італія">
+                <article class="destination-card theme-historical destination-florence-historic-centre" data-country="🇮🇹 Італія">
                     <div class="destination-image">
                         <img src="../images/places/europe/florence-historic-centre.webp" alt="Florence Historic Centre, 🇮🇹 Італія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -608,7 +615,7 @@
                         <a href="../places/europe/florence-historic-centre.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇮🇸 Ісландія">
+                <article class="destination-card theme-water destination-reynisfjara-beach" data-country="🇮🇸 Ісландія">
                     <div class="destination-image">
                         <img src="../images/places/europe/reynisfjara-beach.webp" alt="Reynisfjara Beach, 🇮🇸 Ісландія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -620,7 +627,7 @@
                         <a href="../places/europe/reynisfjara-beach.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇮🇸 Ісландія">
+                <article class="destination-card theme-waterfall destination-seljalandsfoss" data-country="🇮🇸 Ісландія">
                     <div class="destination-image">
                         <img src="../images/places/europe/seljalandsfoss.webp" alt="Seljalandsfoss, 🇮🇸 Ісландія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -632,7 +639,7 @@
                         <a href="../places/europe/seljalandsfoss.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇮🇸 Ісландія">
+                <article class="destination-card theme-snowy destination-jokulsarlon" data-country="🇮🇸 Ісландія">
                     <div class="destination-image">
                         <img src="../images/places/europe/jokulsarlon.webp" alt="Jökulsárlón, 🇮🇸 Ісландія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -644,7 +651,7 @@
                         <a href="../places/europe/jokulsarlon.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🌍 Фінляндія">
+                <article class="destination-card theme-snowy destination-rovaniemi" data-country="🌍 Фінляндія">
                     <div class="destination-image">
                         <img src="../images/places/europe/rovaniemi.webp" alt="Rovaniemi, 🌍 Фінляндія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -656,7 +663,7 @@
                         <a href="../places/europe/rovaniemi.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇳🇴 Норвегія">
+                <article class="destination-card theme-waterfall destination-geirangerfjord" data-country="🇳🇴 Норвегія">
                     <div class="destination-image">
                         <img src="../images/places/europe/geirangerfjord.webp" alt="Geirangerfjord, 🇳🇴 Норвегія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -668,7 +675,7 @@
                         <a href="../places/europe/geirangerfjord.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇳🇴 Норвегія">
+                <article class="destination-card theme-water destination-lovoten-islands" data-country="🇳🇴 Норвегія">
                     <div class="destination-image">
                         <img src="../images/places/europe/lovoten-islands.webp" alt="Lofoten Islands, 🇳🇴 Норвегія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -680,7 +687,7 @@
                         <a href="../places/europe/lovoten-islands.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇳🇴 Норвегія">
+                <article class="destination-card theme-nature destination-trolltunga" data-country="🇳🇴 Норвегія">
                     <div class="destination-image">
                         <img src="../images/places/europe/trolltunga.webp" alt="Trolltunga, 🇳🇴 Норвегія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -692,7 +699,7 @@
                         <a href="../places/europe/trolltunga.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇳🇴 Норвегія">
+                <article class="destination-card theme-nature destination-preikestolen" data-country="🇳🇴 Норвегія">
                     <div class="destination-image">
                         <img src="../images/places/europe/preikestolen.webp" alt="Preikestolen, 🇳🇴 Норвегія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -704,7 +711,7 @@
                         <a href="../places/europe/preikestolen.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇳🇴 Норвегія">
+                <article class="destination-card theme-snowy destination-tromso" data-country="🇳🇴 Норвегія">
                     <div class="destination-image">
                         <img src="../images/places/europe/tromso.webp" alt="Tromsø, 🇳🇴 Норвегія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -716,7 +723,7 @@
                         <a href="../places/europe/tromso.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Україна">
+                <article class="destination-card theme-historical destination-kyiv-pechersk-lavra" data-country="🌍 Україна">
                     <div class="destination-image">
                         <img src="../images/places/europe/kyiv-pechersk-lavra.webp" alt="Kyiv Pechersk Lavra, 🌍 Україна" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -728,7 +735,7 @@
                         <a href="../places/europe/kyiv-pechersk-lavra.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🌍 Україна">
+                <article class="destination-card theme-waterfall destination-carpathian-mountains" data-country="🌍 Україна">
                     <div class="destination-image">
                         <img src="../images/places/europe/carpathian-mountains.webp" alt="Carpathian Mountains, 🌍 Україна" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -740,7 +747,7 @@
                         <a href="../places/europe/carpathian-mountains.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🌍 Україна">
+                <article class="destination-card theme-nature destination-hoverla" data-country="🌍 Україна">
                     <div class="destination-image">
                         <img src="../images/places/europe/hoverla.webp" alt="Hoverla, 🌍 Україна" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -752,7 +759,7 @@
                         <a href="../places/europe/hoverla.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🌍 Україна">
+                <article class="destination-card theme-water destination-synevyr-lake" data-country="🌍 Україна">
                     <div class="destination-image">
                         <img src="../images/places/europe/synevyr-lake.webp" alt="Synevyr Lake, 🌍 Україна" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -764,7 +771,7 @@
                         <a href="../places/europe/synevyr-lake.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Україна">
+                <article class="destination-card theme-historical destination-kamianets-podilskyi-castle" data-country="🌍 Україна">
                     <div class="destination-image">
                         <img src="../images/places/europe/kamianets-podilskyi-castle.webp" alt="Kamianets-Podilskyi Castle, 🌍 Україна" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -776,7 +783,7 @@
                         <a href="../places/europe/kamianets-podilskyi-castle.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Україна">
+                <article class="destination-card theme-historical destination-lviv-old-town" data-country="🌍 Україна">
                     <div class="destination-image">
                         <img src="../images/places/europe/lviv-old-town.webp" alt="Lviv Old Town, 🌍 Україна" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -788,7 +795,7 @@
                         <a href="../places/europe/lviv-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇵🇹 Португалія">
+                <article class="destination-card theme-nature destination-benagil-cave" data-country="🇵🇹 Португалія">
                     <div class="destination-image">
                         <img src="../images/places/europe/benagil-cave.webp" alt="Benagil Cave, 🇵🇹 Португалія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -800,7 +807,7 @@
                         <a href="../places/europe/benagil-cave.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇵🇹 Португалія">
+                <article class="destination-card theme-nature destination-alfama" data-country="🇵🇹 Португалія">
                     <div class="destination-image">
                         <img src="../images/places/europe/alfama.webp" alt="Alfama, 🇵🇹 Португалія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -812,7 +819,7 @@
                         <a href="../places/europe/alfama.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇵🇹 Португалія">
+                <article class="destination-card theme-historical destination-pena-palace" data-country="🇵🇹 Португалія">
                     <div class="destination-image">
                         <img src="../images/places/europe/pena-palace.webp" alt="Pena Palace, 🇵🇹 Португалія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -824,7 +831,7 @@
                         <a href="../places/europe/pena-palace.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Боснія і Герцеговина">
+                <article class="destination-card theme-historical destination-mostar-old-bridge" data-country="🌍 Боснія і Герцеговина">
                     <div class="destination-image">
                         <img src="../images/places/europe/mostar-old-bridge.webp" alt="Mostar Old Bridge, 🌍 Боснія і Герцеговина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -836,7 +843,7 @@
                         <a href="../places/europe/mostar-old-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🌍 Данія">
+                <article class="destination-card theme-nature destination-nyhavn" data-country="🌍 Данія">
                     <div class="destination-image">
                         <img src="../images/places/europe/nyhavn.webp" alt="Nyhavn, 🌍 Данія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -848,7 +855,7 @@
                         <a href="../places/europe/nyhavn.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇭🇺 Угорщина">
+                <article class="destination-card theme-nature destination-budapest-parliament" data-country="🇭🇺 Угорщина">
                     <div class="destination-image">
                         <img src="../images/places/europe/budapest-parliament.webp" alt="Budapest Parliament, 🇭🇺 Угорщина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -866,7 +873,7 @@
         <section class="continent-section" id="asia">
             <div class="continent-heading"><span>EXPLORE</span><h2>Азія</h2><p>56 локацій</p></div>
             <div class="destination-grid">
-                <article class="destination-card theme-nature" data-country="🇨🇳 Китай">
+                <article class="destination-card theme-nature destination-great-wall-of-china" data-country="🇨🇳 Китай">
                     <div class="destination-image">
                         <img src="../images/places/asia/great-wall-of-china.webp" alt="Great Wall of China, 🇨🇳 Китай" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -878,7 +885,7 @@
                         <a href="../places/asia/great-wall-of-china.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇨🇳 Китай">
+                <article class="destination-card theme-mountain destination-zhangjiajie-national-forest-park" data-country="🇨🇳 Китай">
                     <div class="destination-image">
                         <img src="../images/places/asia/zhangjiajie-national-forest-park.webp" alt="Zhangjiajie National Forest Park, 🇨🇳 Китай" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -890,7 +897,7 @@
                         <a href="../places/asia/zhangjiajie-national-forest-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇨🇳 Китай">
+                <article class="destination-card theme-city destination-forbidden-city" data-country="🇨🇳 Китай">
                     <div class="destination-image">
                         <img src="../images/places/asia/forbidden-city.webp" alt="Forbidden City, 🇨🇳 Китай" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -902,7 +909,7 @@
                         <a href="../places/asia/forbidden-city.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇨🇳 Китай">
+                <article class="destination-card theme-water destination-li-river" data-country="🇨🇳 Китай">
                     <div class="destination-image">
                         <img src="../images/places/asia/li-river.webp" alt="Li River, 🇨🇳 Китай" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -914,7 +921,7 @@
                         <a href="../places/asia/li-river.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇨🇳 Китай">
+                <article class="destination-card theme-waterfall destination-jiuzhaigou-valley" data-country="🇨🇳 Китай">
                     <div class="destination-image">
                         <img src="../images/places/asia/jiuzhaigou-valley.webp" alt="Jiuzhaigou Valley, 🇨🇳 Китай" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -926,7 +933,7 @@
                         <a href="../places/asia/jiuzhaigou-valley.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇹🇷 Туреччина">
+                <article class="destination-card theme-nature destination-cappadocia" data-country="🇹🇷 Туреччина">
                     <div class="destination-image">
                         <img src="../images/places/asia/cappadocia.webp" alt="Cappadocia, 🇹🇷 Туреччина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -938,7 +945,7 @@
                         <a href="../places/asia/cappadocia.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇹🇷 Туреччина">
+                <article class="destination-card theme-nature destination-pamukkale" data-country="🇹🇷 Туреччина">
                     <div class="destination-image">
                         <img src="../images/places/asia/pamukkale.webp" alt="Pamukkale, 🇹🇷 Туреччина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -950,7 +957,7 @@
                         <a href="../places/asia/pamukkale.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇹🇷 Туреччина">
+                <article class="destination-card theme-nature destination-hagia-sophia" data-country="🇹🇷 Туреччина">
                     <div class="destination-image">
                         <img src="../images/places/asia/hagia-sophia.webp" alt="Hagia Sophia, 🇹🇷 Туреччина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -962,7 +969,7 @@
                         <a href="../places/asia/hagia-sophia.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🌍 Саудівська Аравія">
+                <article class="destination-card theme-nature destination-hegra" data-country="🌍 Саудівська Аравія">
                     <div class="destination-image">
                         <img src="../images/places/asia/hegra.webp" alt="Hegra, 🌍 Саудівська Аравія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -974,7 +981,7 @@
                         <a href="../places/asia/hegra.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🌍 Камбоджа">
+                <article class="destination-card theme-nature destination-angkor-wat" data-country="🌍 Камбоджа">
                     <div class="destination-image">
                         <img src="../images/places/asia/angkor-wat.webp" alt="Angkor Wat, 🌍 Камбоджа" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -986,7 +993,7 @@
                         <a href="../places/asia/angkor-wat.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🌍 Камбоджа">
+                <article class="destination-card theme-water destination-bayon-temple" data-country="🌍 Камбоджа">
                     <div class="destination-image">
                         <img src="../images/places/asia/bayon-temple.webp" alt="Bayon Temple, 🌍 Камбоджа" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -998,7 +1005,7 @@
                         <a href="../places/asia/bayon-temple.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇹🇭 Таїланд">
+                <article class="destination-card theme-water destination-phi-phi-islands" data-country="🇹🇭 Таїланд">
                     <div class="destination-image">
                         <img src="../images/places/asia/phi-phi-islands.webp" alt="Phi Phi Islands, 🇹🇭 Таїланд" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1010,7 +1017,7 @@
                         <a href="../places/asia/phi-phi-islands.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇹🇭 Таїланд">
+                <article class="destination-card theme-water destination-railay-beach" data-country="🇹🇭 Таїланд">
                     <div class="destination-image">
                         <img src="../images/places/asia/railay-beach.webp" alt="Railay Beach, 🇹🇭 Таїланд" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1022,7 +1029,7 @@
                         <a href="../places/asia/railay-beach.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇹🇭 Таїланд">
+                <article class="destination-card theme-historical destination-grand-palace-bangkok" data-country="🇹🇭 Таїланд">
                     <div class="destination-image">
                         <img src="../images/places/asia/bangkok.webp" alt="Grand Palace Bangkok, 🇹🇭 Таїланд" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1034,7 +1041,7 @@
                         <a href="../places/asia/grand-palace-bangkok.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-snowy destination-ubud-rice-terraces" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/ubud.webp" alt="Ubud Rice Terraces, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1046,7 +1053,7 @@
                         <a href="../places/asia/ubud-rice-terraces.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-nature destination-tanah-lot" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/tanah_lot.webp" alt="Tanah Lot, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1058,7 +1065,7 @@
                         <a href="../places/asia/tanah-lot.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-nature destination-nusa-penida" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/nusa_penida.webp" alt="Nusa Penida, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1070,7 +1077,7 @@
                         <a href="../places/asia/nusa-penida.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-mountain destination-komodo-national-park" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/komodo.webp" alt="Komodo National Park, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1082,7 +1089,7 @@
                         <a href="../places/asia/komodo-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-historical destination-borobudur-temple" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/borobudur.webp" alt="Borobudur Temple, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1094,7 +1101,7 @@
                         <a href="../places/asia/borobudur-temple.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-nature destination-raja-ampat" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/raja_ampat.webp" alt="Raja Ampat, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1106,7 +1113,7 @@
                         <a href="../places/asia/raja-ampat.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇮🇩 Індонезія">
+                <article class="destination-card theme-mountain destination-mount-bromo" data-country="🇮🇩 Індонезія">
                     <div class="destination-image">
                         <img src="../images/places/asia/mount_bromo.webp" alt="Mount Bromo, 🇮🇩 Індонезія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1118,7 +1125,7 @@
                         <a href="../places/asia/mount-bromo.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇰🇷 Південна Корея">
+                <article class="destination-card theme-historical destination-gyeongbokgung-palace" data-country="🇰🇷 Південна Корея">
                     <div class="destination-image">
                         <img src="../images/places/asia/gyeongbokgung_palace.webp" alt="Gyeongbokgung Palace, 🇰🇷 Південна Корея" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1130,7 +1137,7 @@
                         <a href="../places/asia/gyeongbokgung-palace.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇰🇷 Південна Корея">
+                <article class="destination-card theme-waterfall destination-jeju-island" data-country="🇰🇷 Південна Корея">
                     <div class="destination-image">
                         <img src="../images/places/asia/jeju_island.webp" alt="Jeju Island, 🇰🇷 Південна Корея" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1142,7 +1149,7 @@
                         <a href="../places/asia/jeju-island.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇻🇳 В'єтнам">
+                <article class="destination-card theme-water destination-ha-long-bay" data-country="🇻🇳 В'єтнам">
                     <div class="destination-image">
                         <img src="../images/places/asia/ha_long_bay.webp" alt="Ha Long Bay, 🇻🇳 В'єтнам" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1154,7 +1161,7 @@
                         <a href="../places/asia/ha-long-bay.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇻🇳 В'єтнам">
+                <article class="destination-card theme-nature destination-hoi-an-ancient-town" data-country="🇻🇳 В'єтнам">
                     <div class="destination-image">
                         <img src="../images/places/asia/hoi_an_ancient_town.webp" alt="Hoi An Ancient Town, 🇻🇳 В'єтнам" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1166,7 +1173,7 @@
                         <a href="../places/asia/hoi-an-ancient-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇻🇳 В'єтнам">
+                <article class="destination-card theme-historical destination-golden-bridge" data-country="🇻🇳 В'єтнам">
                     <div class="destination-image">
                         <img src="../images/places/asia/golden_bridge.webp" alt="Golden Bridge, 🇻🇳 В'єтнам" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1178,7 +1185,7 @@
                         <a href="../places/asia/golden-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇻🇳 В'єтнам">
+                <article class="destination-card theme-nature destination-phong-nha-caves" data-country="🇻🇳 В'єтнам">
                     <div class="destination-image">
                         <img src="../images/places/asia/phong_nha_caves.webp" alt="Phong Nha Caves, 🇻🇳 В'єтнам" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1190,7 +1197,7 @@
                         <a href="../places/asia/phong-nha-caves.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇳🇵 Непал">
+                <article class="destination-card theme-mountain destination-mount-everest-base-camp" data-country="🇳🇵 Непал">
                     <div class="destination-image">
                         <img src="../images/places/asia/mount_everest_base_camp.webp" alt="Mount Everest Base Camp, 🇳🇵 Непал" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1202,7 +1209,7 @@
                         <a href="../places/asia/mount-everest-base-camp.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇳🇵 Непал">
+                <article class="destination-card theme-historical destination-kathmandu-durbar-square" data-country="🇳🇵 Непал">
                     <div class="destination-image">
                         <img src="../images/places/asia/kathmandu_durbar_square.webp" alt="Kathmandu Durbar Square, 🇳🇵 Непал" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1214,7 +1221,7 @@
                         <a href="../places/asia/kathmandu-durbar-square.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇳🇵 Непал">
+                <article class="destination-card theme-nature destination-annapurna-circuit" data-country="🇳🇵 Непал">
                     <div class="destination-image">
                         <img src="../images/places/asia/annapurna_circuit.webp" alt="Annapurna Circuit, 🇳🇵 Непал" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1226,7 +1233,7 @@
                         <a href="../places/asia/annapurna-circuit.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇦🇪 ОАЕ">
+                <article class="destination-card theme-nature destination-burj-khalifa" data-country="🇦🇪 ОАЕ">
                     <div class="destination-image">
                         <img src="../images/places/asia/burj_khalifa.webp" alt="Burj Khalifa, 🇦🇪 ОАЕ" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1238,7 +1245,7 @@
                         <a href="../places/asia/burj-khalifa.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇦🇪 ОАЕ">
+                <article class="destination-card theme-nature destination-sheikh-zayed-grand-mosque" data-country="🇦🇪 ОАЕ">
                     <div class="destination-image">
                         <img src="../images/places/asia/sheikh_zayed_grand_mosque.webp" alt="Sheikh Zayed Grand Mosque, 🇦🇪 ОАЕ" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1250,7 +1257,7 @@
                         <a href="../places/asia/sheikh-zayed-grand-mosque.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇲🇾 Малайзія">
+                <article class="destination-card theme-city destination-petronas-towers" data-country="🇲🇾 Малайзія">
                     <div class="destination-image">
                         <img src="../images/places/asia/petronas_towers.webp" alt="Petronas Towers, 🇲🇾 Малайзія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1262,7 +1269,7 @@
                         <a href="../places/asia/petronas-towers.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇲🇾 Малайзія">
+                <article class="destination-card theme-historical destination-langkawi-sky-bridge" data-country="🇲🇾 Малайзія">
                     <div class="destination-image">
                         <img src="../images/places/asia/langkawi_sky_bridge.webp" alt="Langkawi Sky Bridge, 🇲🇾 Малайзія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1274,7 +1281,7 @@
                         <a href="../places/asia/langkawi-sky-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇮🇳 Індія">
+                <article class="destination-card theme-historical destination-taj-mahal" data-country="🇮🇳 Індія">
                     <div class="destination-image">
                         <img src="../images/places/asia/taj_mahal.webp" alt="Taj Mahal, 🇮🇳 Індія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1286,7 +1293,7 @@
                         <a href="../places/asia/taj-mahal.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇮🇳 Індія">
+                <article class="destination-card theme-nature destination-varanasi-ghats" data-country="🇮🇳 Індія">
                     <div class="destination-image">
                         <img src="../images/places/asia/varanasi_ghats.webp" alt="Varanasi Ghats, 🇮🇳 Індія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1298,7 +1305,7 @@
                         <a href="../places/asia/varanasi-ghats.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇮🇳 Індія">
+                <article class="destination-card theme-water destination-kerala-backwaters" data-country="🇮🇳 Індія">
                     <div class="destination-image">
                         <img src="../images/places/asia/kerala_backwaters.webp" alt="Kerala Backwaters, 🇮🇳 Індія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1310,7 +1317,7 @@
                         <a href="../places/asia/kerala-backwaters.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇮🇳 Індія">
+                <article class="destination-card theme-water destination-pangong-lake" data-country="🇮🇳 Індія">
                     <div class="destination-image">
                         <img src="../images/places/asia/pangong_lake.webp" alt="Pangong Lake, 🇮🇳 Індія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1322,7 +1329,7 @@
                         <a href="../places/asia/pangong-lake.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇸🇬 Сінгапур">
+                <article class="destination-card theme-water destination-gardens-by-the-bay" data-country="🇸🇬 Сінгапур">
                     <div class="destination-image">
                         <img src="../images/places/asia/gardens_by_the_bay.webp" alt="Gardens by the Bay, 🇸🇬 Сінгапур" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1334,7 +1341,7 @@
                         <a href="../places/asia/gardens-by-the-bay.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇸🇬 Сінгапур">
+                <article class="destination-card theme-water destination-marina-bay-sands" data-country="🇸🇬 Сінгапур">
                     <div class="destination-image">
                         <img src="../images/places/asia/marina_bay_sands.webp" alt="Marina Bay Sands, 🇸🇬 Сінгапур" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1346,7 +1353,7 @@
                         <a href="../places/asia/marina-bay-sands.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇵🇭 Філіппіни">
+                <article class="destination-card theme-snowy destination-banaue-rice-terraces" data-country="🇵🇭 Філіппіни">
                     <div class="destination-image">
                         <img src="../images/places/asia/banaue_rice_terraces.webp" alt="Banaue Rice Terraces, 🇵🇭 Філіппіни" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1358,7 +1365,7 @@
                         <a href="../places/asia/banaue-rice-terraces.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇵🇭 Філіппіни">
+                <article class="destination-card theme-nature destination-el-nido" data-country="🇵🇭 Філіппіни">
                     <div class="destination-image">
                         <img src="../images/places/asia/el_nido.webp" alt="El Nido, 🇵🇭 Філіппіни" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1370,7 +1377,7 @@
                         <a href="../places/asia/el-nido.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🌍 Мальдіви">
+                <article class="destination-card theme-water destination-male-atoll" data-country="🌍 Мальдіви">
                     <div class="destination-image">
                         <img src="../images/places/asia/male_atoll.webp" alt="Malé Atoll, 🌍 Мальдіви" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1382,7 +1389,7 @@
                         <a href="../places/asia/male-atoll.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Бутан">
+                <article class="destination-card theme-historical destination-tigers-nest-monastery" data-country="🌍 Бутан">
                     <div class="destination-image">
                         <img src="../images/places/asia/tiger_nest.webp" alt="Tiger's Nest Monastery, 🌍 Бутан" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1394,7 +1401,7 @@
                         <a href="../places/asia/tigers-nest-monastery.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-city destination-shibuya-crossing" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/shibuya_crossing.webp" alt="Shibuya Crossing, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1406,7 +1413,7 @@
                         <a href="../places/asia/shibuya-crossing.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-nature destination-fushimi-inari-taisha" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/fushimi_inari_taisha.webp" alt="Fushimi Inari Taisha, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1418,7 +1425,7 @@
                         <a href="../places/asia/fushimi-inari-taisha.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-mountain destination-arashiyama-bamboo-forest" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/arashiyama_bamboo_forest.webp" alt="Arashiyama Bamboo Forest, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1430,7 +1437,7 @@
                         <a href="../places/asia/arashiyama-bamboo-forest.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-mountain destination-mount-fuji" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/mount_fuji.webp" alt="Mount Fuji, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1442,7 +1449,7 @@
                         <a href="../places/asia/mount-fuji.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-city destination-tokyo-skytree" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/tokyo_skytree.webp" alt="Tokyo Skytree, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1454,7 +1461,7 @@
                         <a href="../places/asia/tokyo-skytree.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-nature destination-dotonbori" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/dotonbori.webp" alt="Dotonbori, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1466,7 +1473,7 @@
                         <a href="../places/asia/dotonbori.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-nature destination-kinkaku-ji" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/kinkaku_ji.webp" alt="Kinkaku-ji, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1478,7 +1485,7 @@
                         <a href="../places/asia/kinkaku-ji.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-mountain destination-hiroshima-peace-memorial-park" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/hiroshima_peace_memorial_park.webp" alt="Hiroshima Peace Memorial Park, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1490,7 +1497,7 @@
                         <a href="../places/asia/hiroshima-peace-memorial-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-mountain destination-nara-park" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/nara_park.webp" alt="Nara Park, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1502,7 +1509,7 @@
                         <a href="../places/asia/nara-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇯🇵 Японія">
+                <article class="destination-card theme-nature destination-shirakawa-go" data-country="🇯🇵 Японія">
                     <div class="destination-image">
                         <img src="../images/places/asia/shirakawa_go.webp" alt="Shirakawa-go, 🇯🇵 Японія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1514,7 +1521,7 @@
                         <a href="../places/asia/shirakawa-go.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇯🇴 Йорданія">
+                <article class="destination-card theme-nature destination-petra" data-country="🇯🇴 Йорданія">
                     <div class="destination-image">
                         <img src="../images/places/asia/petra.webp" alt="Petra, 🇯🇴 Йорданія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1526,7 +1533,7 @@
                         <a href="../places/asia/petra.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇯🇴 Йорданія">
+                <article class="destination-card theme-desert destination-wadi-rum" data-country="🇯🇴 Йорданія">
                     <div class="destination-image">
                         <img src="../images/places/asia/wadi_rum.webp" alt="Wadi Rum, 🇯🇴 Йорданія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1544,7 +1551,7 @@
         <section class="continent-section" id="north-america">
             <div class="continent-heading"><span>EXPLORE</span><h2>Північна Америка</h2><p>30 локацій</p></div>
             <div class="destination-grid">
-                <article class="destination-card theme-historical" data-country="🇺🇸 США">
+                <article class="destination-card theme-historical destination-times-square" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/times_square.webp" alt="Times Square, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1556,7 +1563,7 @@
                         <a href="../places/north-america/times-square.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇺🇸 США">
+                <article class="destination-card theme-desert destination-grand-canyon" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/grand_canyon.webp" alt="Grand Canyon, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1568,7 +1575,7 @@
                         <a href="../places/north-america/grand-canyon.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇺🇸 США">
+                <article class="destination-card theme-mountain destination-yellowstone-national-park" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/yellowstone.webp" alt="Yellowstone National Park, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1580,7 +1587,7 @@
                         <a href="../places/north-america/yellowstone-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇺🇸 США">
+                <article class="destination-card theme-waterfall destination-yosemite-national-park" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/yosemite.webp" alt="Yosemite National Park, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1592,7 +1599,7 @@
                         <a href="../places/north-america/yosemite-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇺🇸 США">
+                <article class="destination-card theme-desert destination-antelope-canyon" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/antelope_canyon.webp" alt="Antelope Canyon, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1604,7 +1611,7 @@
                         <a href="../places/north-america/antelope-canyon.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇺🇸 США">
+                <article class="destination-card theme-desert destination-monument-valley" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/monument_valley.webp" alt="Monument Valley, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1616,7 +1623,7 @@
                         <a href="../places/north-america/monument-valley.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇺🇸 США">
+                <article class="destination-card theme-mountain destination-zion-national-park" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/zion_national_park.webp" alt="Zion National Park, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1628,7 +1635,7 @@
                         <a href="../places/north-america/zion-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇺🇸 США">
+                <article class="destination-card theme-desert destination-bryce-canyon" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/bryce_canyon.webp" alt="Bryce Canyon, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1640,7 +1647,7 @@
                         <a href="../places/north-america/bryce-canyon.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇺🇸 США">
+                <article class="destination-card theme-water destination-na-pali-coast" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/n%C4%81_pali_coast.webp" alt="Nā Pali Coast, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1652,7 +1659,7 @@
                         <a href="../places/north-america/na-pali-coast.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-volcanic" data-country="🇺🇸 США">
+                <article class="destination-card theme-volcanic destination-haleakala" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/haleakala.webp" alt="Haleakalā, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1664,7 +1671,7 @@
                         <a href="../places/north-america/haleakala.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇺🇸 США">
+                <article class="destination-card theme-historical destination-golden-gate-bridge" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/golden_gate_bridge.webp" alt="Golden Gate Bridge, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1676,7 +1683,7 @@
                         <a href="../places/north-america/golden-gate-bridge.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇺🇸 США">
+                <article class="destination-card theme-city destination-las-vegas-strip" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/las_vegas_strip.webp" alt="Las Vegas Strip, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1688,7 +1695,7 @@
                         <a href="../places/north-america/las-vegas-strip.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇺🇸 США">
+                <article class="destination-card theme-water destination-miami-beach" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/miami_beach.webp" alt="Miami Beach, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1700,7 +1707,7 @@
                         <a href="../places/north-america/miami-beach.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇺🇸 США">
+                <article class="destination-card theme-nature destination-french-quarter" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/french_quarter.webp" alt="French Quarter, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1712,7 +1719,7 @@
                         <a href="../places/north-america/french-quarter.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-city" data-country="🇺🇸 США">
+                <article class="destination-card theme-city destination-space-needle" data-country="🇺🇸 США">
                     <div class="destination-image">
                         <img src="../images/places/north-america/space_needle.webp" alt="Space Needle, 🇺🇸 США" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1724,7 +1731,7 @@
                         <a href="../places/north-america/space-needle.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇲🇽 Мексика">
+                <article class="destination-card theme-nature destination-tulum" data-country="🇲🇽 Мексика">
                     <div class="destination-image">
                         <img src="../images/places/north-america/tulum.webp" alt="Tulum, 🇲🇽 Мексика" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1736,7 +1743,7 @@
                         <a href="../places/north-america/tulum.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇲🇽 Мексика">
+                <article class="destination-card theme-nature destination-chichen-itza" data-country="🇲🇽 Мексика">
                     <div class="destination-image">
                         <img src="../images/places/north-america/chichen_itza.webp" alt="Chichén Itzá, 🇲🇽 Мексика" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1748,7 +1755,7 @@
                         <a href="../places/north-america/chichen-itza.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇲🇽 Мексика">
+                <article class="destination-card theme-historical destination-historic-centre-of-mexico-city" data-country="🇲🇽 Мексика">
                     <div class="destination-image">
                         <img src="../images/places/north-america/historic_centre_of_mexico_city.webp" alt="Historic Centre of Mexico City, 🇲🇽 Мексика" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1760,7 +1767,7 @@
                         <a href="../places/north-america/historic-centre-of-mexico-city.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇲🇽 Мексика">
+                <article class="destination-card theme-desert destination-copper-canyon" data-country="🇲🇽 Мексика">
                     <div class="destination-image">
                         <img src="../images/places/north-america/copper_canyon.webp" alt="Copper Canyon, 🇲🇽 Мексика" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1772,7 +1779,7 @@
                         <a href="../places/north-america/copper-canyon.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇲🇽 Мексика">
+                <article class="destination-card theme-water destination-holbox-island" data-country="🇲🇽 Мексика">
                     <div class="destination-image">
                         <img src="../images/places/north-america/holbox_island.webp" alt="Holbox Island, 🇲🇽 Мексика" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1784,7 +1791,7 @@
                         <a href="../places/north-america/holbox-island.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇲🇽 Мексика">
+                <article class="destination-card theme-nature destination-palenque" data-country="🇲🇽 Мексика">
                     <div class="destination-image">
                         <img src="../images/places/north-america/palenque.webp" alt="Palenque, 🇲🇽 Мексика" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1796,7 +1803,7 @@
                         <a href="../places/north-america/palenque.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-mountain destination-banff-national-park" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/banff_national_park.webp" alt="Banff National Park, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1808,7 +1815,7 @@
                         <a href="../places/north-america/banff-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-water destination-lake-louise" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/lake_louise.webp" alt="Lake Louise, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1820,7 +1827,7 @@
                         <a href="../places/north-america/lake-louise.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-water destination-moraine-lake" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/moraine_lake.webp" alt="Moraine Lake, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1832,7 +1839,7 @@
                         <a href="../places/north-america/moraine-lake.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-mountain destination-jasper-national-park" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/jasper_national_park.webp" alt="Jasper National Park, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1844,7 +1851,7 @@
                         <a href="../places/north-america/jasper-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-waterfall destination-niagara-falls" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/niagara_falls.webp" alt="Niagara Falls, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1856,7 +1863,7 @@
                         <a href="../places/north-america/niagara-falls.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-mountain destination-stanley-park" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/stanley_park.webp" alt="Stanley Park, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1868,7 +1875,7 @@
                         <a href="../places/north-america/stanley-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-historical destination-quebec-city-old-town" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/quebec_city.webp" alt="Quebec City Old Town, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1880,7 +1887,7 @@
                         <a href="../places/north-america/quebec-city-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-snowy destination-icefields-parkway" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/icefields_parkway.webp" alt="Icefields Parkway, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1892,7 +1899,7 @@
                         <a href="../places/north-america/icefields-parkway.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇨🇦 Канада">
+                <article class="destination-card theme-nature destination-whistler" data-country="🇨🇦 Канада">
                     <div class="destination-image">
                         <img src="../images/places/north-america/whistler.webp" alt="Whistler, 🇨🇦 Канада" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1910,7 +1917,7 @@
         <section class="continent-section" id="south-america">
             <div class="continent-heading"><span>EXPLORE</span><h2>Південна Америка</h2><p>26 локацій</p></div>
             <div class="destination-grid">
-                <article class="destination-card theme-nature" data-country="🇵🇪 Перу">
+                <article class="destination-card theme-nature destination-machu-picchu" data-country="🇵🇪 Перу">
                     <div class="destination-image">
                         <img src="../images/places/south-america/machu-picchu.webp" alt="Machu Picchu, 🇵🇪 Перу" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1922,7 +1929,7 @@
                         <a href="../places/south-america/machu-picchu.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇵🇪 Перу">
+                <article class="destination-card theme-mountain destination-rainbow-mountain" data-country="🇵🇪 Перу">
                     <div class="destination-image">
                         <img src="../images/places/south-america/rainbow-mountain.webp" alt="Rainbow Mountain, 🇵🇪 Перу" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1934,7 +1941,7 @@
                         <a href="../places/south-america/rainbow-mountain.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇵🇪 Перу">
+                <article class="destination-card theme-water destination-lake-titicaca" data-country="🇵🇪 Перу">
                     <div class="destination-image">
                         <img src="../images/places/south-america/lake-titicaca.webp" alt="Lake Titicaca, 🇵🇪 Перу" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1946,7 +1953,7 @@
                         <a href="../places/south-america/lake-titicaca.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇵🇪 Перу">
+                <article class="destination-card theme-mountain destination-sacred-valley" data-country="🇵🇪 Перу">
                     <div class="destination-image">
                         <img src="../images/places/south-america/sacred-valley.webp" alt="Sacred Valley, 🇵🇪 Перу" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1958,7 +1965,7 @@
                         <a href="../places/south-america/sacred-valley.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🌍 Колумбія">
+                <article class="destination-card theme-historical destination-cartagena-old-town" data-country="🌍 Колумбія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/cartagena-old-town.webp" alt="Cartagena Old Town, 🌍 Колумбія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1970,7 +1977,7 @@
                         <a href="../places/south-america/cartagena-old-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🌍 Колумбія">
+                <article class="destination-card theme-mountain destination-cocora-valley" data-country="🌍 Колумбія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/cocora-valley.webp" alt="Cocora Valley, 🌍 Колумбія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1982,7 +1989,7 @@
                         <a href="../places/south-america/cocora-valley.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🌍 Колумбія">
+                <article class="destination-card theme-nature destination-guatape" data-country="🌍 Колумбія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/guatap%C3%A9.webp" alt="Guatapé, 🌍 Колумбія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -1994,7 +2001,7 @@
                         <a href="../places/south-america/guatape.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇨🇱 Чилі">
+                <article class="destination-card theme-nature destination-torres-del-paine" data-country="🇨🇱 Чилі">
                     <div class="destination-image">
                         <img src="../images/places/south-america/torres-del-paine.webp" alt="Torres del Paine, 🇨🇱 Чилі" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2006,7 +2013,7 @@
                         <a href="../places/south-america/torres-del-paine.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇨🇱 Чилі">
+                <article class="destination-card theme-desert destination-atacama-desert" data-country="🇨🇱 Чилі">
                     <div class="destination-image">
                         <img src="../images/places/south-america/atacama-desert.webp" alt="Atacama Desert, 🇨🇱 Чилі" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2018,7 +2025,7 @@
                         <a href="../places/south-america/atacama-desert.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇨🇱 Чилі">
+                <article class="destination-card theme-water destination-easter-island" data-country="🇨🇱 Чилі">
                     <div class="destination-image">
                         <img src="../images/places/south-america/easter-island.webp" alt="Easter Island, 🇨🇱 Чилі" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2030,7 +2037,7 @@
                         <a href="../places/south-america/easter-island.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇨🇱 Чилі">
+                <article class="destination-card theme-nature destination-marble-caves" data-country="🇨🇱 Чилі">
                     <div class="destination-image">
                         <img src="../images/places/south-america/marble-caves.webp" alt="Marble Caves, 🇨🇱 Чилі" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2042,7 +2049,7 @@
                         <a href="../places/south-america/marble-caves.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇻🇪 Венесуела">
+                <article class="destination-card theme-waterfall destination-angel-falls" data-country="🇻🇪 Венесуела">
                     <div class="destination-image">
                         <img src="../images/places/south-america/angel-falls.webp" alt="Angel Falls, 🇻🇪 Венесуела" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2054,7 +2061,7 @@
                         <a href="../places/south-america/angel-falls.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇧🇴 Болівія">
+                <article class="destination-card theme-nature destination-salar-de-uyuni" data-country="🇧🇴 Болівія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/salar-de-uyuni.webp" alt="Salar de Uyuni, 🇧🇴 Болівія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2066,7 +2073,7 @@
                         <a href="../places/south-america/salar-de-uyuni.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇧🇴 Болівія">
+                <article class="destination-card theme-nature destination-valle-de-la-luna" data-country="🇧🇴 Болівія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/valle-de-la-luna.webp" alt="Valle de la Luna, 🇧🇴 Болівія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2078,7 +2085,7 @@
                         <a href="../places/south-america/valle-de-la-luna.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-snowy" data-country="🇦🇷 Аргентина">
+                <article class="destination-card theme-snowy destination-perito-moreno-glacier" data-country="🇦🇷 Аргентина">
                     <div class="destination-image">
                         <img src="../images/places/south-america/perito-moreno-glacier.webp" alt="Perito Moreno Glacier, 🇦🇷 Аргентина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2090,7 +2097,7 @@
                         <a href="../places/south-america/perito-moreno-glacier.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇦🇷 Аргентина">
+                <article class="destination-card theme-waterfall destination-iguazu-falls" data-country="🇦🇷 Аргентина">
                     <div class="destination-image">
                         <img src="../images/places/south-america/iguanazu-falls.webp" alt="Iguazu Falls, 🇦🇷 Аргентина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2102,7 +2109,7 @@
                         <a href="../places/south-america/iguazu-falls.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇦🇷 Аргентина">
+                <article class="destination-card theme-nature destination-la-boca" data-country="🇦🇷 Аргентина">
                     <div class="destination-image">
                         <img src="../images/places/south-america/la-boca.webp" alt="La Boca, 🇦🇷 Аргентина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2114,7 +2121,7 @@
                         <a href="../places/south-america/la-boca.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇦🇷 Аргентина">
+                <article class="destination-card theme-nature destination-el-chalten" data-country="🇦🇷 Аргентина">
                     <div class="destination-image">
                         <img src="../images/places/south-america/el-chalten.webp" alt="El Chaltén, 🇦🇷 Аргентина" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2126,7 +2133,7 @@
                         <a href="../places/south-america/el-chalten.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇪🇨 Еквадор">
+                <article class="destination-card theme-water destination-galapagos-islands" data-country="🇪🇨 Еквадор">
                     <div class="destination-image">
                         <img src="../images/places/south-america/galapagos-islands.webp" alt="Galápagos Islands, 🇪🇨 Еквадор" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2138,7 +2145,7 @@
                         <a href="../places/south-america/galapagos-islands.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-historical" data-country="🇪🇨 Еквадор">
+                <article class="destination-card theme-historical destination-quito-historic-centre" data-country="🇪🇨 Еквадор">
                     <div class="destination-image">
                         <img src="../images/places/south-america/quito-historic-centre.webp" alt="Quito Historic Centre, 🇪🇨 Еквадор" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2150,7 +2157,7 @@
                         <a href="../places/south-america/quito-historic-centre.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇧🇷 Бразилія">
+                <article class="destination-card theme-nature destination-christ-the-redeemer" data-country="🇧🇷 Бразилія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/christ-the-redeemer.webp" alt="Christ the Redeemer, 🇧🇷 Бразилія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2162,7 +2169,7 @@
                         <a href="../places/south-america/christ-the-redeemer.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇧🇷 Бразилія">
+                <article class="destination-card theme-mountain destination-sugarloaf-mountain" data-country="🇧🇷 Бразилія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/sugarloaf-mountain.webp" alt="Sugarloaf Mountain, 🇧🇷 Бразилія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2174,7 +2181,7 @@
                         <a href="../places/south-america/sugarloaf-mountain.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇧🇷 Бразилія">
+                <article class="destination-card theme-mountain destination-amazon-rainforest" data-country="🇧🇷 Бразилія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/amazon-rainforest.webp" alt="Amazon Rainforest, 🇧🇷 Бразилія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2186,7 +2193,7 @@
                         <a href="../places/south-america/amazon-rainforest.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇧🇷 Бразилія">
+                <article class="destination-card theme-nature destination-lencois-maranhenses" data-country="🇧🇷 Бразилія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/len%C3%A7%C3%B3is-maranhenses.webp" alt="Lençóis Maranhenses, 🇧🇷 Бразилія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2198,7 +2205,7 @@
                         <a href="../places/south-america/lencois-maranhenses.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇧🇷 Бразилія">
+                <article class="destination-card theme-nature destination-fernando-de-noronha" data-country="🇧🇷 Бразилія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/fernando-de-noronha.webp" alt="Fernando de Noronha, 🇧🇷 Бразилія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2210,7 +2217,7 @@
                         <a href="../places/south-america/fernando-de-noronha.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-water" data-country="🇧🇷 Бразилія">
+                <article class="destination-card theme-water destination-copacabana-beach" data-country="🇧🇷 Бразилія">
                     <div class="destination-image">
                         <img src="../images/places/south-america/copacabana-beach.webp" alt="Copacabana Beach, 🇧🇷 Бразилія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2228,7 +2235,7 @@
         <section class="continent-section" id="africa">
             <div class="continent-heading"><span>EXPLORE</span><h2>Африка</h2><p>16 локацій</p></div>
             <div class="destination-grid">
-                <article class="destination-card theme-nature" data-country="🇪🇬 Єгипет">
+                <article class="destination-card theme-nature destination-pyramids-of-giza" data-country="🇪🇬 Єгипет">
                     <div class="destination-image">
                         <img src="../images/places/africa/pyramids-of-giza.webp" alt="Pyramids of Giza, 🇪🇬 Єгипет" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2240,7 +2247,7 @@
                         <a href="../places/africa/pyramids-of-giza.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇪🇬 Єгипет">
+                <article class="destination-card theme-mountain destination-valley-of-the-kings" data-country="🇪🇬 Єгипет">
                     <div class="destination-image">
                         <img src="../images/places/africa/valley-of-the-kings.webp" alt="Valley of the Kings, 🇪🇬 Єгипет" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2252,7 +2259,7 @@
                         <a href="../places/africa/valley-of-the-kings.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇪🇬 Єгипет">
+                <article class="destination-card theme-desert destination-white-desert" data-country="🇪🇬 Єгипет">
                     <div class="destination-image">
                         <img src="../images/places/africa/white-desert.webp" alt="White Desert, 🇪🇬 Єгипет" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2264,7 +2271,7 @@
                         <a href="../places/africa/white-desert.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇿🇦 ПАР">
+                <article class="destination-card theme-mountain destination-table-mountain" data-country="🇿🇦 ПАР">
                     <div class="destination-image">
                         <img src="../images/places/africa/table-mountain.webp" alt="Table Mountain, 🇿🇦 ПАР" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2276,7 +2283,7 @@
                         <a href="../places/africa/table-mountain.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇿🇦 ПАР">
+                <article class="destination-card theme-nature destination-bo-kaap" data-country="🇿🇦 ПАР">
                     <div class="destination-image">
                         <img src="../images/places/africa/bo-kaap.webp" alt="Bo-Kaap, 🇿🇦 ПАР" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2288,7 +2295,7 @@
                         <a href="../places/africa/bo-kaap.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇿🇦 ПАР">
+                <article class="destination-card theme-mountain destination-kruger-national-park" data-country="🇿🇦 ПАР">
                     <div class="destination-image">
                         <img src="../images/places/africa/kruger-national-park.webp" alt="Kruger National Park, 🇿🇦 ПАР" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2300,7 +2307,7 @@
                         <a href="../places/africa/kruger-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇿🇦 ПАР">
+                <article class="destination-card theme-desert destination-blyde-river-canyon" data-country="🇿🇦 ПАР">
                     <div class="destination-image">
                         <img src="../images/places/africa/blyde-river-canyon.webp" alt="Blyde River Canyon, 🇿🇦 ПАР" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2312,7 +2319,7 @@
                         <a href="../places/africa/blyde-river-canyon.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-waterfall" data-country="🇿🇲 Замбія">
+                <article class="destination-card theme-waterfall destination-victoria-falls" data-country="🇿🇲 Замбія">
                     <div class="destination-image">
                         <img src="../images/places/africa/victoria-falls.webp" alt="Victoria Falls, 🇿🇲 Замбія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2324,7 +2331,7 @@
                         <a href="../places/africa/victoria-falls.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇹🇿 Танзанія">
+                <article class="destination-card theme-mountain destination-serengeti-national-park" data-country="🇹🇿 Танзанія">
                     <div class="destination-image">
                         <img src="../images/places/africa/serengeti-national-park.webp" alt="Serengeti National Park, 🇹🇿 Танзанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2336,7 +2343,7 @@
                         <a href="../places/africa/serengeti-national-park.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇹🇿 Танзанія">
+                <article class="destination-card theme-nature destination-ngorongoro-crater" data-country="🇹🇿 Танзанія">
                     <div class="destination-image">
                         <img src="../images/places/africa/ngorongoro-crater.webp" alt="Ngorongoro Crater, 🇹🇿 Танзанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2348,7 +2355,7 @@
                         <a href="../places/africa/ngorongoro-crater.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-mountain" data-country="🇹🇿 Танзанія">
+                <article class="destination-card theme-mountain destination-mount-kilimanjaro" data-country="🇹🇿 Танзанія">
                     <div class="destination-image">
                         <img src="../images/places/africa/mount-kilimanjaro.webp" alt="Mount Kilimanjaro, 🇹🇿 Танзанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2360,7 +2367,7 @@
                         <a href="../places/africa/mount-kilimanjaro.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇹🇿 Танзанія">
+                <article class="destination-card theme-nature destination-stone-town" data-country="🇹🇿 Танзанія">
                     <div class="destination-image">
                         <img src="../images/places/africa/stone-town.webp" alt="Stone Town, 🇹🇿 Танзанія" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2372,7 +2379,7 @@
                         <a href="../places/africa/stone-town.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇲🇦 Марокко">
+                <article class="destination-card theme-nature destination-marrakech-medina" data-country="🇲🇦 Марокко">
                     <div class="destination-image">
                         <img src="../images/places/africa/marrakech-medina.webp" alt="Marrakech Medina, 🇲🇦 Марокко" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2384,7 +2391,7 @@
                         <a href="../places/africa/marrakech-medina.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇲🇦 Марокко">
+                <article class="destination-card theme-nature destination-chefchaouen" data-country="🇲🇦 Марокко">
                     <div class="destination-image">
                         <img src="../images/places/africa/chefchaouen.webp" alt="Chefchaouen, 🇲🇦 Марокко" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2396,7 +2403,7 @@
                         <a href="../places/africa/chefchaouen.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-desert" data-country="🇲🇦 Марокко">
+                <article class="destination-card theme-desert destination-merzouga-desert" data-country="🇲🇦 Марокко">
                     <div class="destination-image">
                         <img src="../images/places/africa/merzouga-desert.webp" alt="Merzouga Desert, 🇲🇦 Марокко" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>
@@ -2408,7 +2415,7 @@
                         <a href="../places/africa/merzouga-desert.html" class="destination-button">Дослідити →</a>
                     </div>
                 </article>
-                <article class="destination-card theme-nature" data-country="🇲🇦 Марокко">
+                <article class="destination-card theme-nature destination-ait-benhaddou" data-country="🇲🇦 Марокко">
                     <div class="destination-image">
                         <img src="../images/places/africa/ait-benhaddou.webp" alt="Aït Benhaddou, 🇲🇦 Марокко" onerror="this.style.display='none'" loading="lazy" decoding="async">
                         <span class="image-label">WORLDORA</span>

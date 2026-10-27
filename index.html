@@ -26,7 +26,20 @@
     <main>
         <section class="hero">
             <div class="hero-bg"></div>
-            <div class="hero-overlay"></div>
+            <div class="hero-overlay"></div><div class="environment environment-starry-night" aria-hidden="true"><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span><span class="environment-particle"></span></div>
+            <div class="globe-stage">
+                <input class="orbit-pause" id="earth-pause" type="checkbox">
+                <label class="orbit-control" for="earth-pause">Зупинити обертання</label>
+                <div class="globe-display" aria-hidden="true">
+                    <div class="globe-orbit"></div>
+                    <div class="globe-orbit globe-orbit-secondary"></div>
+                    <div class="globe">
+                        <div class="globe-track"><div class="globe-map"><span class="globe-land land-america"></span><span class="globe-land land-south"></span><span class="globe-land land-europe"></span><span class="globe-land land-africa"></span><span class="globe-land land-australia"></span><span class="globe-land land-greenland"></span></div><div class="globe-map"><span class="globe-land land-america"></span><span class="globe-land land-south"></span><span class="globe-land land-europe"></span><span class="globe-land land-africa"></span><span class="globe-land land-australia"></span><span class="globe-land land-greenland"></span></div></div>
+                        <div class="globe-latitude"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="horizon-label">BEYOND THE HORIZON</p>
             <div class="hero-content">
                 <p class="hero-kicker">TRAVEL DISCOVERY</p>
                 <h1 class="hero-title">Worldora</h1>
@@ -48,6 +61,17 @@
                     <p>Досліджуй континенти, знаходь нові напрямки та відкривай місця, куди справді хочеться вирушити.</p>
                 </div>
             </div>
+        </section>
+
+        <section class="continent-explore section-shell">
+            <p>ЗА ГОРИЗОНТОМ — НОВЕ ВІДКРИТТЯ</p>
+            <nav class="continent-links" aria-label="Дослідження континентів">
+                <a href="pages/destinations.html#europe"><span>01</span>Європа</a>
+                <a href="pages/destinations.html#asia"><span>02</span>Азія</a>
+                <a href="pages/destinations.html#africa"><span>03</span>Африка</a>
+                <a href="pages/destinations.html#north-america"><span>04</span>Північна Америка</a>
+                <a href="pages/destinations.html#south-america"><span>05</span>Південна Америка</a>
+            </nav>
         </section>
 
         <section class="cta-section section-shell">
