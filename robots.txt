@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pon4ikkk.github.io/worldora-web/sitemap.xml
+Sitemap: https://pon4ikkk.github.io/worldora-web/sitemap-worldora.xml
